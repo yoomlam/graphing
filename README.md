@@ -81,5 +81,4 @@ https://blog.anoff.io/2018-07-31-diagrams-with-plantuml/
 
 ![asdfasd](http://www.plantuml.com/plantuml/png/SoWkIImgAStDuG9IcMc9oIKAC8OXff0Hff0nff09ff0fff0Pff0vff05ff0b5gSQSC6P2hgwTWW7euXh8LoD8fwFS3gAk3R2_IZYoWXFeDgBiDWSHS80uHyKyJY4fmoDZ0sDJ8mCKUGr392zw92QbmACAG00)
 
-
-http://www.plantuml.com/plantuml/svg/SoWkIImgAKxCAU7YgWQY42ukRONm_AAS5213My4nDxKeCpaHo0Pod1Fp4bEWxD1WHo03nF9BBLU8p2_AXdATyejBylCWYdnJApAJyy46kPOMvHUaGeGzIn9pAY5CzzIYtCIyIfZUrAASp3o8nMaGUsl1o24rBmNaHW00
+![](http://www.plantuml.com/plantuml/svg/SoWkIImgAKxCAU7YgWQY42ukRONm_AAS5213My4nDxKeCpaHo0Pod1Fp4bEWxD1WHo03nF9BBLU8p2_AXdATyejBylCWYdnJApAJyy46kPOMvHUaGeGzIn9pAY5CzzIYtCIyIfZUrAASp3o8nMaGUsl1o24rBmNaHW00)
