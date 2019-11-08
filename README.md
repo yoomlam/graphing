@@ -18,26 +18,7 @@ custom_mark12
 <details> 
 <summary></summary>
 custom_mark13
-/**
-*Structural Things
-*/
-class Structural{}
-
-/**
-*@opt all
-*@note Class
-*/
-class Counter extends Structural {
-        static public int counter;
-        public int getCounter();
-}
-
-/**
-*@opt shape activeclass
-*@opt all
-*@note Active Class
-*/
-class RunningCounter extends Counter{}
+@startuml
 
 artifact artifact1
 artifact artifact2
@@ -59,6 +40,7 @@ artifact1 --0 artifact8
 artifact1 --^ artifact9
 artifact1 --(0 artifact10
 
+@enduml
 custom_mark13
 </details>
 
