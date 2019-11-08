@@ -1,6 +1,6 @@
 # graphing
 
-![Alt text](https://g.gravizo.com/source/custom_mark?https%3A%2F%2Fgithub.com%2Fyoomlam%2Fgraphing%2Fedit%2Fmaster%2FREADME.md)
+![Alt text](https://g.gravizo.com/source/custom_mark?https%3A%2F%2Fgithub.com%2Fyoomlam%2Fgraphing%2Fblob%2Fmaster%2FREADME.md)
 <details> 
 <summary></summary>
 custom_mark
