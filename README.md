@@ -3,7 +3,7 @@
 ![My graph](https://g.gravizo.com/source/custom_mark12?https%3A%2F%2Fraw.githubusercontent.com%2Fyoomlam%2Fgraphing%2Fmaster%2FREADME.md)
 <details> 
 <summary>Hi</summary>
-custom_mark13
+custom_mark12
   digraph G {
     size ="4,4";
     main [shape=box];
