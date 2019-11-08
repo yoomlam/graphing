@@ -7,7 +7,7 @@ custom_mark12
   digraph G {
     size ="4,4";
     main [shape=box];
-    main -> parse [weight=8];
+    main -> parser [weight=8];
   }
 custom_mark12
 </details>
