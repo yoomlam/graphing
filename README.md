@@ -20,10 +20,6 @@ custom_mark12
 custom_mark13
 /**
 *Structural Things
-*@opt commentname
-*@note Notes can
-*be extended to
-*span multiple lines
 */
 class Structural{}
 
@@ -42,6 +38,27 @@ class Counter extends Structural {
 *@note Active Class
 */
 class RunningCounter extends Counter{}
+
+artifact artifact1
+artifact artifact2
+artifact artifact3
+artifact artifact4
+artifact artifact5
+artifact artifact6
+artifact artifact7
+artifact artifact8
+artifact artifact9
+artifact artifact10
+artifact1 --> artifact2
+artifact1 --* artifact3
+artifact1 --o artifact4
+artifact1 --+ artifact5
+artifact1 --# artifact6
+artifact1 -->> artifact7
+artifact1 --0 artifact8
+artifact1 --^ artifact9
+artifact1 --(0 artifact10
+
 custom_mark13
 </details>
 
