@@ -1,6 +1,10 @@
+| [README.md](README.md) | [Task Listing](tasklist.md) |
+
 # TranslationTask_Organization
 
-<details><summary>Links for TranslationTask_Organization</summary>
+## Tasks Created Before and After
+
+<details><summary>Tasks created before and after TranslationTask_Organization</summary>
 
 ```
 digraph G {
@@ -14,20 +18,22 @@ rankdir="LR";
 
 ![TranslationTask_Organization](dot/TranslationTask_Organization.dot.png)
 
-## Nextlinks
+**Before:**
 
-   * 1 [TranslationTask_User](TranslationTask_User.md)
+   * [DistributionTask_Organization](DistributionTask_Organization.md): 1 times
+   * [HearingTask_Organization](HearingTask_Organization.md): 1 times
 
-## Backlinks
+**After:**
 
-   * 1 [DistributionTask_Organization](DistributionTask_Organization.md)
-   * 1 [HearingTask_Organization](HearingTask_Organization.md)
+   * [TranslationTask_User](TranslationTask_User.md): 1 times
 
-## RTO.DTO.TTO
+## Task Creation Sequences
 
-1 occurrences (example appeals: [41094])
+### RTO.DTO.TTO
 
-<details><summary>PlantUML for 41094</summary>
+1 occurrences (example appeal IDs: [41094])
+
+<details><summary>Task Tree for appeal with ID 41094</summary>
 
 ```
 @startuml
@@ -42,11 +48,11 @@ object 2.TranslationTask_Organization #e5c494
 
 ![RTO.DTO.TTO-41094](uml/RTO.DTO.TTO-41094.png)
 
-## RTO.DTO.SHTO.HTO.TTO
+### RTO.DTO.SHTO.HTO.TTO
 
-1 occurrences (example appeals: [24900])
+1 occurrences (example appeal IDs: [24900])
 
-<details><summary>PlantUML for 24900</summary>
+<details><summary>Task Tree for appeal with ID 24900</summary>
 
 ```
 @startuml

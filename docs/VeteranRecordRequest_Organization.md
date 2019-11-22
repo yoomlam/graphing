@@ -1,6 +1,10 @@
+| [README.md](README.md) | [Task Listing](tasklist.md) |
+
 # VeteranRecordRequest_Organization
 
-<details><summary>Links for VeteranRecordRequest_Organization</summary>
+## Tasks Created Before and After
+
+<details><summary>Tasks created before and after VeteranRecordRequest_Organization</summary>
 
 ```
 digraph G {
@@ -12,18 +16,20 @@ rankdir="LR";
 
 ![VeteranRecordRequest_Organization](dot/VeteranRecordRequest_Organization.dot.png)
 
-## Nextlinks
+**Before:**
+
+   * [InformalHearingPresentationTask_Organization](InformalHearingPresentationTask_Organization.md): 1 times
+
+**After:**
 
 
-## Backlinks
+## Task Creation Sequences
 
-   * 1 [InformalHearingPresentationTask_Organization](InformalHearingPresentationTask_Organization.md)
+### RTO.TVTO.DTO.IHPTO.VRRO
 
-## RTO.TVTO.DTO.IHPTO.VRRO
+1 occurrences (example appeal IDs: [42651])
 
-1 occurrences (example appeals: [42651])
-
-<details><summary>PlantUML for 42651</summary>
+<details><summary>Task Tree for appeal with ID 42651</summary>
 
 ```
 @startuml

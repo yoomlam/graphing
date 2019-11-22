@@ -1,6 +1,10 @@
+| [README.md](README.md) | [Task Listing](tasklist.md) |
+
 # EvidenceOrArgumentMailTask_Organization
 
-<details><summary>Links for EvidenceOrArgumentMailTask_Organization</summary>
+## Tasks Created Before and After
+
+<details><summary>Tasks created before and after EvidenceOrArgumentMailTask_Organization</summary>
 
 ```
 digraph G {
@@ -14,21 +18,23 @@ rankdir="LR";
 
 ![EvidenceOrArgumentMailTask_Organization](dot/EvidenceOrArgumentMailTask_Organization.dot.png)
 
-## Nextlinks
+**Before:**
 
-   * 1 [EvidenceOrArgumentMailTask_Organization](EvidenceOrArgumentMailTask_Organization.md)
-   * 1 [EvidenceOrArgumentMailTask_User](EvidenceOrArgumentMailTask_User.md)
+   * [DistributionTask_Organization](DistributionTask_Organization.md): 1 times
+   * [EvidenceOrArgumentMailTask_Organization](EvidenceOrArgumentMailTask_Organization.md): 1 times
 
-## Backlinks
+**After:**
 
-   * 1 [DistributionTask_Organization](DistributionTask_Organization.md)
-   * 1 [EvidenceOrArgumentMailTask_Organization](EvidenceOrArgumentMailTask_Organization.md)
+   * [EvidenceOrArgumentMailTask_Organization](EvidenceOrArgumentMailTask_Organization.md): 1 times
+   * [EvidenceOrArgumentMailTask_User](EvidenceOrArgumentMailTask_User.md): 1 times
 
-## RTO.DTO.EOAMTO.EOAMTO
+## Task Creation Sequences
 
-1 occurrences (example appeals: [10213])
+### RTO.DTO.EOAMTO.EOAMTO
 
-<details><summary>PlantUML for 10213</summary>
+1 occurrences (example appeal IDs: [10213])
+
+<details><summary>Task Tree for appeal with ID 10213</summary>
 
 ```
 @startuml
@@ -57,11 +63,11 @@ object 9.BvaDispatchTask_User #e5c494
 
 ![RTO.DTO.EOAMTO.EOAMTO-10213](uml/RTO.DTO.EOAMTO.EOAMTO-10213.png)
 
-## RTO.DTO.EOAMTO
+### RTO.DTO.EOAMTO
 
-1 occurrences (example appeals: [10213])
+1 occurrences (example appeal IDs: [10213])
 
-<details><summary>PlantUML for 10213</summary>
+<details><summary>Task Tree for appeal with ID 10213</summary>
 
 ```
 @startuml

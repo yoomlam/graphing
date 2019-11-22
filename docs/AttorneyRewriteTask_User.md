@@ -1,6 +1,10 @@
+| [README.md](README.md) | [Task Listing](tasklist.md) |
+
 # AttorneyRewriteTask_User
 
-<details><summary>Links for AttorneyRewriteTask_User</summary>
+## Tasks Created Before and After
+
+<details><summary>Tasks created before and after AttorneyRewriteTask_User</summary>
 
 ```
 digraph G {
@@ -13,19 +17,21 @@ rankdir="LR";
 
 ![AttorneyRewriteTask_User](dot/AttorneyRewriteTask_User.dot.png)
 
-## Nextlinks
+**Before:**
 
-   * 2 [BvaDispatchTask_Organization](BvaDispatchTask_Organization.md)
+   * [AttorneyTask_User](AttorneyTask_User.md): 2 times
 
-## Backlinks
+**After:**
 
-   * 2 [AttorneyTask_User](AttorneyTask_User.md)
+   * [BvaDispatchTask_Organization](BvaDispatchTask_Organization.md): 2 times
 
-## RTO.TVTO.DTO.ESWTO.IHPTO.JATU.JDRTU.ATU.ARTU
+## Task Creation Sequences
 
-1 occurrences (example appeals: [11522])
+### RTO.TVTO.DTO.ESWTO.IHPTO.JATU.JDRTU.ATU.ARTU
 
-<details><summary>PlantUML for 11522</summary>
+1 occurrences (example appeal IDs: [11522])
+
+<details><summary>Task Tree for appeal with ID 11522</summary>
 
 ```
 @startuml
@@ -56,11 +62,11 @@ object 10.BvaDispatchTask_User #e5c494
 
 ![RTO.TVTO.DTO.ESWTO.IHPTO.JATU.JDRTU.ATU.ARTU-11522](uml/RTO.TVTO.DTO.ESWTO.IHPTO.JATU.JDRTU.ATU.ARTU-11522.png)
 
-## RTO.DTO.ESWTO.SCMTU.JATU.JDRTU.ATU.ARTU
+### RTO.DTO.ESWTO.SCMTU.JATU.JDRTU.ATU.ARTU
 
-1 occurrences (example appeals: [40605])
+1 occurrences (example appeal IDs: [40605])
 
-<details><summary>PlantUML for 40605</summary>
+<details><summary>Task Tree for appeal with ID 40605</summary>
 
 ```
 @startuml

@@ -1,6 +1,10 @@
+| [README.md](README.md) | [Task Listing](tasklist.md) |
+
 # TranslationTask_User
 
-<details><summary>Links for TranslationTask_User</summary>
+## Tasks Created Before and After
+
+<details><summary>Tasks created before and after TranslationTask_User</summary>
 
 ```
 digraph G {
@@ -12,18 +16,20 @@ rankdir="LR";
 
 ![TranslationTask_User](dot/TranslationTask_User.dot.png)
 
-## Nextlinks
+**Before:**
+
+   * [TranslationTask_Organization](TranslationTask_Organization.md): 1 times
+
+**After:**
 
 
-## Backlinks
+## Task Creation Sequences
 
-   * 1 [TranslationTask_Organization](TranslationTask_Organization.md)
+### RTO.DTO.SHTO.HTO.TTO.TTU
 
-## RTO.DTO.SHTO.HTO.TTO.TTU
+1 occurrences (example appeal IDs: [24900])
 
-1 occurrences (example appeals: [24900])
-
-<details><summary>PlantUML for 24900</summary>
+<details><summary>Task Tree for appeal with ID 24900</summary>
 
 ```
 @startuml

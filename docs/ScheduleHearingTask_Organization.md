@@ -1,6 +1,10 @@
+| [README.md](README.md) | [Task Listing](tasklist.md) |
+
 # ScheduleHearingTask_Organization
 
-<details><summary>Links for ScheduleHearingTask_Organization</summary>
+## Tasks Created Before and After
+
+<details><summary>Tasks created before and after ScheduleHearingTask_Organization</summary>
 
 ```
 digraph G {
@@ -13,19 +17,21 @@ rankdir="LR";
 
 ![ScheduleHearingTask_Organization](dot/ScheduleHearingTask_Organization.dot.png)
 
-## Nextlinks
+**Before:**
 
-   * 128 [HearingTask_Organization](HearingTask_Organization.md)
+   * [DistributionTask_Organization](DistributionTask_Organization.md): 128 times
 
-## Backlinks
+**After:**
 
-   * 128 [DistributionTask_Organization](DistributionTask_Organization.md)
+   * [HearingTask_Organization](HearingTask_Organization.md): 128 times
 
-## RTO.TVTO.DTO.SHTO
+## Task Creation Sequences
 
-119 occurrences (example appeals: [42769, 42820, 42010, 42071, 39818])
+### RTO.TVTO.DTO.SHTO
 
-<details><summary>PlantUML for 42769</summary>
+119 occurrences (example appeal IDs: [42769, 42820, 42010, 42071, 39818])
+
+<details><summary>Task Tree for appeal with ID 42769</summary>
 
 ```
 @startuml
@@ -44,11 +50,11 @@ object 4.HearingTask_Organization #e78ac3
 
 ![RTO.TVTO.DTO.SHTO-42769](uml/RTO.TVTO.DTO.SHTO-42769.png)
 
-## RTO.DTO.SHTO
+### RTO.DTO.SHTO
 
-9 occurrences (example appeals: [41136, 42097, 4988, 42691, 40835])
+9 occurrences (example appeal IDs: [41136, 42097, 4988, 42691, 40835])
 
-<details><summary>PlantUML for 41136</summary>
+<details><summary>Task Tree for appeal with ID 41136</summary>
 
 ```
 @startuml

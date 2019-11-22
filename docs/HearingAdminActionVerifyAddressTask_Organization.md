@@ -1,6 +1,10 @@
+| [README.md](README.md) | [Task Listing](tasklist.md) |
+
 # HearingAdminActionVerifyAddressTask_Organization
 
-<details><summary>Links for HearingAdminActionVerifyAddressTask_Organization</summary>
+## Tasks Created Before and After
+
+<details><summary>Tasks created before and after HearingAdminActionVerifyAddressTask_Organization</summary>
 
 ```
 digraph G {
@@ -12,18 +16,20 @@ rankdir="LR";
 
 ![HearingAdminActionVerifyAddressTask_Organization](dot/HearingAdminActionVerifyAddressTask_Organization.dot.png)
 
-## Nextlinks
+**Before:**
+
+   * [HearingTask_Organization](HearingTask_Organization.md): 3 times
+
+**After:**
 
 
-## Backlinks
+## Task Creation Sequences
 
-   * 3 [HearingTask_Organization](HearingTask_Organization.md)
+### RTO.TVTO.DTO.SHTO.HTO.HAAVATO
 
-## RTO.TVTO.DTO.SHTO.HTO.HAAVATO
+3 occurrences (example appeal IDs: [42837, 42103, 42843])
 
-3 occurrences (example appeals: [42837, 42103, 42843])
-
-<details><summary>PlantUML for 42837</summary>
+<details><summary>Task Tree for appeal with ID 42837</summary>
 
 ```
 @startuml

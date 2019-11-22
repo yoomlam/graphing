@@ -1,6 +1,10 @@
+| [README.md](README.md) | [Task Listing](tasklist.md) |
+
 # DistributionTask_Organization
 
-<details><summary>Links for DistributionTask_Organization</summary>
+## Tasks Created Before and After
+
+<details><summary>Tasks created before and after DistributionTask_Organization</summary>
 
 ```
 digraph G {
@@ -21,27 +25,29 @@ rankdir="LR";
 
 ![DistributionTask_Organization](dot/DistributionTask_Organization.dot.png)
 
-## Nextlinks
+**Before:**
 
-   * 128 [ScheduleHearingTask_Organization](ScheduleHearingTask_Organization.md)
-   * 103 [EvidenceSubmissionWindowTask_Organization](EvidenceSubmissionWindowTask_Organization.md)
-   * 75 [InformalHearingPresentationTask_Organization](InformalHearingPresentationTask_Organization.md)
-   * 16 [JudgeAssignTask_User](JudgeAssignTask_User.md)
-   * 1 [EvidenceOrArgumentMailTask_Organization](EvidenceOrArgumentMailTask_Organization.md)
-   * 1 [TranslationTask_Organization](TranslationTask_Organization.md)
-   * 1 [SpecialCaseMovementTask_User](SpecialCaseMovementTask_User.md)
-   * 1 [TrackVeteranTask_Organization](TrackVeteranTask_Organization.md)
+   * [TrackVeteranTask_Organization](TrackVeteranTask_Organization.md): 301 times
+   * [RootTask_Organization](RootTask_Organization.md): 102 times
 
-## Backlinks
+**After:**
 
-   * 301 [TrackVeteranTask_Organization](TrackVeteranTask_Organization.md)
-   * 102 [RootTask_Organization](RootTask_Organization.md)
+   * [ScheduleHearingTask_Organization](ScheduleHearingTask_Organization.md): 128 times
+   * [EvidenceSubmissionWindowTask_Organization](EvidenceSubmissionWindowTask_Organization.md): 103 times
+   * [InformalHearingPresentationTask_Organization](InformalHearingPresentationTask_Organization.md): 75 times
+   * [JudgeAssignTask_User](JudgeAssignTask_User.md): 16 times
+   * [EvidenceOrArgumentMailTask_Organization](EvidenceOrArgumentMailTask_Organization.md): 1 times
+   * [TranslationTask_Organization](TranslationTask_Organization.md): 1 times
+   * [SpecialCaseMovementTask_User](SpecialCaseMovementTask_User.md): 1 times
+   * [TrackVeteranTask_Organization](TrackVeteranTask_Organization.md): 1 times
 
-## RTO.TVTO.DTO
+## Task Creation Sequences
 
-298 occurrences (example appeals: [42769, 34538, 39812, 41319, 40595])
+### RTO.TVTO.DTO
 
-<details><summary>PlantUML for 42769</summary>
+298 occurrences (example appeal IDs: [42769, 34538, 39812, 41319, 40595])
+
+<details><summary>Task Tree for appeal with ID 42769</summary>
 
 ```
 @startuml
@@ -60,11 +66,11 @@ object 4.HearingTask_Organization #e78ac3
 
 ![RTO.TVTO.DTO-42769](uml/RTO.TVTO.DTO-42769.png)
 
-## RTO.DTO
+### RTO.DTO
 
-102 occurrences (example appeals: [15152, 32724, 10213, 39837, 41094])
+102 occurrences (example appeal IDs: [15152, 32724, 10213, 39837, 41094])
 
-<details><summary>PlantUML for 15152</summary>
+<details><summary>Task Tree for appeal with ID 15152</summary>
 
 ```
 @startuml
@@ -93,11 +99,11 @@ object 9.BvaDispatchTask_User #e5c494
 
 ![RTO.DTO-15152](uml/RTO.DTO-15152.png)
 
-## RTO.TVTO.TVTO.DTO
+### RTO.TVTO.TVTO.DTO
 
-3 occurrences (example appeals: [40894, 42805, 42609])
+3 occurrences (example appeal IDs: [40894, 42805, 42609])
 
-<details><summary>PlantUML for 40894</summary>
+<details><summary>Task Tree for appeal with ID 40894</summary>
 
 ```
 @startuml
@@ -116,11 +122,11 @@ object 4.EvidenceSubmissionWindowTask_Organization #b3b3b3
 
 ![RTO.TVTO.TVTO.DTO-40894](uml/RTO.TVTO.TVTO.DTO-40894.png)
 
-## DTO
+### DTO
 
-3 occurrences (example appeals: [6702, 41852, 10958])
+3 occurrences (example appeal IDs: [6702, 41852, 10958])
 
-<details><summary>PlantUML for 6702</summary>
+<details><summary>Task Tree for appeal with ID 6702</summary>
 
 ```
 @startuml

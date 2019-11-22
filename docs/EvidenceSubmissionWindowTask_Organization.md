@@ -1,6 +1,10 @@
+| [README.md](README.md) | [Task Listing](tasklist.md) |
+
 # EvidenceSubmissionWindowTask_Organization
 
-<details><summary>Links for EvidenceSubmissionWindowTask_Organization</summary>
+## Tasks Created Before and After
+
+<details><summary>Tasks created before and after EvidenceSubmissionWindowTask_Organization</summary>
 
 ```
 digraph G {
@@ -16,22 +20,24 @@ rankdir="LR";
 
 ![EvidenceSubmissionWindowTask_Organization](dot/EvidenceSubmissionWindowTask_Organization.dot.png)
 
-## Nextlinks
+**Before:**
 
-   * 9 [InformalHearingPresentationTask_Organization](InformalHearingPresentationTask_Organization.md)
-   * 2 [TrackVeteranTask_Organization](TrackVeteranTask_Organization.md)
-   * 2 [JudgeAssignTask_User](JudgeAssignTask_User.md)
-   * 1 [SpecialCaseMovementTask_User](SpecialCaseMovementTask_User.md)
+   * [DistributionTask_Organization](DistributionTask_Organization.md): 103 times
 
-## Backlinks
+**After:**
 
-   * 103 [DistributionTask_Organization](DistributionTask_Organization.md)
+   * [InformalHearingPresentationTask_Organization](InformalHearingPresentationTask_Organization.md): 9 times
+   * [TrackVeteranTask_Organization](TrackVeteranTask_Organization.md): 2 times
+   * [JudgeAssignTask_User](JudgeAssignTask_User.md): 2 times
+   * [SpecialCaseMovementTask_User](SpecialCaseMovementTask_User.md): 1 times
 
-## RTO.TVTO.DTO.ESWTO
+## Task Creation Sequences
 
-63 occurrences (example appeals: [40915, 42334, 41269, 42634, 40596])
+### RTO.TVTO.DTO.ESWTO
 
-<details><summary>PlantUML for 40915</summary>
+63 occurrences (example appeal IDs: [40915, 42334, 41269, 42634, 40596])
+
+<details><summary>Task Tree for appeal with ID 40915</summary>
 
 ```
 @startuml
@@ -48,11 +54,11 @@ object 3.EvidenceSubmissionWindowTask_Organization #b3b3b3
 
 ![RTO.TVTO.DTO.ESWTO-40915](uml/RTO.TVTO.DTO.ESWTO-40915.png)
 
-## RTO.DTO.ESWTO
+### RTO.DTO.ESWTO
 
-37 occurrences (example appeals: [15152, 42078, 39814, 42497, 40530])
+37 occurrences (example appeal IDs: [15152, 42078, 39814, 42497, 40530])
 
-<details><summary>PlantUML for 15152</summary>
+<details><summary>Task Tree for appeal with ID 15152</summary>
 
 ```
 @startuml
@@ -81,11 +87,11 @@ object 9.BvaDispatchTask_User #e5c494
 
 ![RTO.DTO.ESWTO-15152](uml/RTO.DTO.ESWTO-15152.png)
 
-## RTO.TVTO.TVTO.DTO.ESWTO
+### RTO.TVTO.TVTO.DTO.ESWTO
 
-3 occurrences (example appeals: [40894, 42805, 42609])
+3 occurrences (example appeal IDs: [40894, 42805, 42609])
 
-<details><summary>PlantUML for 40894</summary>
+<details><summary>Task Tree for appeal with ID 40894</summary>
 
 ```
 @startuml

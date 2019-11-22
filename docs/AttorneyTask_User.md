@@ -1,6 +1,10 @@
+| [README.md](README.md) | [Task Listing](tasklist.md) |
+
 # AttorneyTask_User
 
-<details><summary>Links for AttorneyTask_User</summary>
+## Tasks Created Before and After
+
+<details><summary>Tasks created before and after AttorneyTask_User</summary>
 
 ```
 digraph G {
@@ -18,24 +22,26 @@ rankdir="LR";
 
 ![AttorneyTask_User](dot/AttorneyTask_User.dot.png)
 
-## Nextlinks
+**Before:**
 
-   * 16 [BvaDispatchTask_Organization](BvaDispatchTask_Organization.md)
-   * 2 [QualityReviewTask_Organization](QualityReviewTask_Organization.md)
-   * 2 [AttorneyRewriteTask_User](AttorneyRewriteTask_User.md)
-   * 1 [JudgeDecisionReviewTask_User](JudgeDecisionReviewTask_User.md)
-   * 1 [TrackVeteranTask_Organization](TrackVeteranTask_Organization.md)
+   * [JudgeDecisionReviewTask_User](JudgeDecisionReviewTask_User.md): 29 times
+   * [JudgeAssignTask_User](JudgeAssignTask_User.md): 1 times
 
-## Backlinks
+**After:**
 
-   * 29 [JudgeDecisionReviewTask_User](JudgeDecisionReviewTask_User.md)
-   * 1 [JudgeAssignTask_User](JudgeAssignTask_User.md)
+   * [BvaDispatchTask_Organization](BvaDispatchTask_Organization.md): 16 times
+   * [QualityReviewTask_Organization](QualityReviewTask_Organization.md): 2 times
+   * [AttorneyRewriteTask_User](AttorneyRewriteTask_User.md): 2 times
+   * [JudgeDecisionReviewTask_User](JudgeDecisionReviewTask_User.md): 1 times
+   * [TrackVeteranTask_Organization](TrackVeteranTask_Organization.md): 1 times
 
-## RTO.TVTO.DTO.JATU.JDRTU.ATU
+## Task Creation Sequences
 
-6 occurrences (example appeals: [40595, 33346, 41369, 37901, 40892])
+### RTO.TVTO.DTO.JATU.JDRTU.ATU
 
-<details><summary>PlantUML for 40595</summary>
+6 occurrences (example appeal IDs: [40595, 33346, 41369, 37901, 40892])
+
+<details><summary>Task Tree for appeal with ID 40595</summary>
 
 ```
 @startuml
@@ -56,11 +62,11 @@ object 5.AttorneyTask_User #fc8d62
 
 ![RTO.TVTO.DTO.JATU.JDRTU.ATU-40595](uml/RTO.TVTO.DTO.JATU.JDRTU.ATU-40595.png)
 
-## RTO.DTO.JATU.JDRTU.ATU
+### RTO.DTO.JATU.JDRTU.ATU
 
-6 occurrences (example appeals: [32724, 38039, 3875, 40608, 41376])
+6 occurrences (example appeal IDs: [32724, 38039, 3875, 40608, 41376])
 
-<details><summary>PlantUML for 32724</summary>
+<details><summary>Task Tree for appeal with ID 32724</summary>
 
 ```
 @startuml
@@ -83,11 +89,11 @@ object 6.BvaDispatchTask_User #e5c494
 
 ![RTO.DTO.JATU.JDRTU.ATU-32724](uml/RTO.DTO.JATU.JDRTU.ATU-32724.png)
 
-## RTO.TVTO.DTO.IHPTO.IHPTU.JATU.JDRTU.ATU
+### RTO.TVTO.DTO.IHPTO.IHPTU.JATU.JDRTU.ATU
 
-4 occurrences (example appeals: [30234, 35142, 5529, 34472])
+4 occurrences (example appeal IDs: [30234, 35142, 5529, 34472])
 
-<details><summary>PlantUML for 30234</summary>
+<details><summary>Task Tree for appeal with ID 30234</summary>
 
 ```
 @startuml
@@ -116,11 +122,11 @@ object 9.BvaDispatchTask_User #e5c494
 
 ![RTO.TVTO.DTO.IHPTO.IHPTU.JATU.JDRTU.ATU-30234](uml/RTO.TVTO.DTO.IHPTO.IHPTU.JATU.JDRTU.ATU-30234.png)
 
-## RTO.TVTO.DTO.IHPTO.JATU.JDRTU.ATU
+### RTO.TVTO.DTO.IHPTO.JATU.JDRTU.ATU
 
-3 occurrences (example appeals: [34538, 10197, 29665])
+3 occurrences (example appeal IDs: [34538, 10197, 29665])
 
-<details><summary>PlantUML for 34538</summary>
+<details><summary>Task Tree for appeal with ID 34538</summary>
 
 ```
 @startuml
@@ -151,11 +157,11 @@ object 10.BvaDispatchTask_User #e5c494
 
 ![RTO.TVTO.DTO.IHPTO.JATU.JDRTU.ATU-34538](uml/RTO.TVTO.DTO.IHPTO.JATU.JDRTU.ATU-34538.png)
 
-## RTO.TVTO.DTO.ESWTO.IHPTO.IHPTU.JATU.JDRTU.ATU
+### RTO.TVTO.DTO.ESWTO.IHPTO.IHPTU.JATU.JDRTU.ATU
 
-2 occurrences (example appeals: [15370, 41412])
+2 occurrences (example appeal IDs: [15370, 41412])
 
-<details><summary>PlantUML for 15370</summary>
+<details><summary>Task Tree for appeal with ID 15370</summary>
 
 ```
 @startuml
@@ -186,11 +192,11 @@ object 10.BvaDispatchTask_User #e5c494
 
 ![RTO.TVTO.DTO.ESWTO.IHPTO.IHPTU.JATU.JDRTU.ATU-15370](uml/RTO.TVTO.DTO.ESWTO.IHPTO.IHPTU.JATU.JDRTU.ATU-15370.png)
 
-## RTO.TVTO.DTO.ESWTO.JATU.JDRTU.ATU
+### RTO.TVTO.DTO.ESWTO.JATU.JDRTU.ATU
 
-2 occurrences (example appeals: [15411, 40893])
+2 occurrences (example appeal IDs: [15411, 40893])
 
-<details><summary>PlantUML for 15411</summary>
+<details><summary>Task Tree for appeal with ID 15411</summary>
 
 ```
 @startuml
@@ -229,11 +235,11 @@ object 14.JudgeDispatchReturnTask_User #fc8d62
 
 ![RTO.TVTO.DTO.ESWTO.JATU.JDRTU.ATU-15411](uml/RTO.TVTO.DTO.ESWTO.JATU.JDRTU.ATU-15411.png)
 
-## RTO.DTO.EOAMTO.EOAMTO.EOAMTU.JATU.JDRTU.ATU
+### RTO.DTO.EOAMTO.EOAMTO.EOAMTU.JATU.JDRTU.ATU
 
-1 occurrences (example appeals: [10213])
+1 occurrences (example appeal IDs: [10213])
 
-<details><summary>PlantUML for 10213</summary>
+<details><summary>Task Tree for appeal with ID 10213</summary>
 
 ```
 @startuml
@@ -262,11 +268,11 @@ object 9.BvaDispatchTask_User #e5c494
 
 ![RTO.DTO.EOAMTO.EOAMTO.EOAMTU.JATU.JDRTU.ATU-10213](uml/RTO.DTO.EOAMTO.EOAMTO.EOAMTU.JATU.JDRTU.ATU-10213.png)
 
-## RTO.TVTO.DTO.ESWTO.IHPTO.JATU.JDRTU.ATU
+### RTO.TVTO.DTO.ESWTO.IHPTO.JATU.JDRTU.ATU
 
-1 occurrences (example appeals: [11522])
+1 occurrences (example appeal IDs: [11522])
 
-<details><summary>PlantUML for 11522</summary>
+<details><summary>Task Tree for appeal with ID 11522</summary>
 
 ```
 @startuml
@@ -297,11 +303,11 @@ object 10.BvaDispatchTask_User #e5c494
 
 ![RTO.TVTO.DTO.ESWTO.IHPTO.JATU.JDRTU.ATU-11522](uml/RTO.TVTO.DTO.ESWTO.IHPTO.JATU.JDRTU.ATU-11522.png)
 
-## RTO.DTO.ESWTO.TVTO.JATU.JDRTU.ATU
+### RTO.DTO.ESWTO.TVTO.JATU.JDRTU.ATU
 
-1 occurrences (example appeals: [17948])
+1 occurrences (example appeal IDs: [17948])
 
-<details><summary>PlantUML for 17948</summary>
+<details><summary>Task Tree for appeal with ID 17948</summary>
 
 ```
 @startuml
@@ -330,11 +336,11 @@ object 9.BvaDispatchTask_User #e5c494
 
 ![RTO.DTO.ESWTO.TVTO.JATU.JDRTU.ATU-17948](uml/RTO.DTO.ESWTO.TVTO.JATU.JDRTU.ATU-17948.png)
 
-## RTO.DTO.TVTO.JATU.JDRTU.ATU
+### RTO.DTO.TVTO.JATU.JDRTU.ATU
 
-1 occurrences (example appeals: [11092])
+1 occurrences (example appeal IDs: [11092])
 
-<details><summary>PlantUML for 11092</summary>
+<details><summary>Task Tree for appeal with ID 11092</summary>
 
 ```
 @startuml
@@ -355,11 +361,11 @@ object 5.AttorneyTask_User #fc8d62
 
 ![RTO.DTO.TVTO.JATU.JDRTU.ATU-11092](uml/RTO.DTO.TVTO.JATU.JDRTU.ATU-11092.png)
 
-## RTO.DTO.ESWTO.TVTO.JATU.ATU
+### RTO.DTO.ESWTO.TVTO.JATU.ATU
 
-1 occurrences (example appeals: [15152])
+1 occurrences (example appeal IDs: [15152])
 
-<details><summary>PlantUML for 15152</summary>
+<details><summary>Task Tree for appeal with ID 15152</summary>
 
 ```
 @startuml
@@ -388,11 +394,11 @@ object 9.BvaDispatchTask_User #e5c494
 
 ![RTO.DTO.ESWTO.TVTO.JATU.ATU-15152](uml/RTO.DTO.ESWTO.TVTO.JATU.ATU-15152.png)
 
-## RTO.TVTO.DTO.IHPTO.JATU.ICTO.ICTU.THTU.JDRTU.ATU
+### RTO.TVTO.DTO.IHPTO.JATU.ICTO.ICTU.THTU.JDRTU.ATU
 
-1 occurrences (example appeals: [7729])
+1 occurrences (example appeal IDs: [7729])
 
-<details><summary>PlantUML for 7729</summary>
+<details><summary>Task Tree for appeal with ID 7729</summary>
 
 ```
 @startuml
@@ -431,11 +437,11 @@ object 14.BvaDispatchTask_User #e5c494
 
 ![RTO.TVTO.DTO.IHPTO.JATU.ICTO.ICTU.THTU.JDRTU.ATU-7729](uml/RTO.TVTO.DTO.IHPTO.JATU.ICTO.ICTU.THTU.JDRTU.ATU-7729.png)
 
-## RTO.DTO.ESWTO.SCMTU.JATU.JDRTU.ATU
+### RTO.DTO.ESWTO.SCMTU.JATU.JDRTU.ATU
 
-1 occurrences (example appeals: [40605])
+1 occurrences (example appeal IDs: [40605])
 
-<details><summary>PlantUML for 40605</summary>
+<details><summary>Task Tree for appeal with ID 40605</summary>
 
 ```
 @startuml

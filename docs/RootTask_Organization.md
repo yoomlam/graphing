@@ -1,6 +1,10 @@
+| [README.md](README.md) | [Task Listing](tasklist.md) |
+
 # RootTask_Organization
 
-<details><summary>Links for RootTask_Organization</summary>
+## Tasks Created Before and After
+
+<details><summary>Tasks created before and after RootTask_Organization</summary>
 
 ```
 digraph G {
@@ -13,19 +17,21 @@ rankdir="LR";
 
 ![RootTask_Organization](dot/RootTask_Organization.dot.png)
 
-## Nextlinks
-
-   * 301 [TrackVeteranTask_Organization](TrackVeteranTask_Organization.md)
-   * 102 [DistributionTask_Organization](DistributionTask_Organization.md)
-
-## Backlinks
+**Before:**
 
 
-## RTO
+**After:**
 
-403 occurrences (example appeals: [42769, 34538, 39812, 41319, 15152])
+   * [TrackVeteranTask_Organization](TrackVeteranTask_Organization.md): 301 times
+   * [DistributionTask_Organization](DistributionTask_Organization.md): 102 times
 
-<details><summary>PlantUML for 42769</summary>
+## Task Creation Sequences
+
+### RTO
+
+403 occurrences (example appeal IDs: [42769, 34538, 39812, 41319, 15152])
+
+<details><summary>Task Tree for appeal with ID 42769</summary>
 
 ```
 @startuml

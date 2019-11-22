@@ -1,6 +1,10 @@
+| [README.md](README.md) | [Task Listing](tasklist.md) |
+
 # IhpColocatedTask_User
 
-<details><summary>Links for IhpColocatedTask_User</summary>
+## Tasks Created Before and After
+
+<details><summary>Tasks created before and after IhpColocatedTask_User</summary>
 
 ```
 digraph G {
@@ -13,19 +17,21 @@ rankdir="LR";
 
 ![IhpColocatedTask_User](dot/IhpColocatedTask_User.dot.png)
 
-## Nextlinks
+**Before:**
 
-   * 1 [TimedHoldTask_User](TimedHoldTask_User.md)
+   * [IhpColocatedTask_Organization](IhpColocatedTask_Organization.md): 1 times
 
-## Backlinks
+**After:**
 
-   * 1 [IhpColocatedTask_Organization](IhpColocatedTask_Organization.md)
+   * [TimedHoldTask_User](TimedHoldTask_User.md): 1 times
 
-## RTO.TVTO.DTO.IHPTO.JATU.ICTO.ICTU
+## Task Creation Sequences
 
-1 occurrences (example appeals: [7729])
+### RTO.TVTO.DTO.IHPTO.JATU.ICTO.ICTU
 
-<details><summary>PlantUML for 7729</summary>
+1 occurrences (example appeal IDs: [7729])
+
+<details><summary>Task Tree for appeal with ID 7729</summary>
 
 ```
 @startuml

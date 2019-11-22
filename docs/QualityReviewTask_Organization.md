@@ -1,6 +1,10 @@
+| [README.md](README.md) | [Task Listing](tasklist.md) |
+
 # QualityReviewTask_Organization
 
-<details><summary>Links for QualityReviewTask_Organization</summary>
+## Tasks Created Before and After
+
+<details><summary>Tasks created before and after QualityReviewTask_Organization</summary>
 
 ```
 digraph G {
@@ -13,19 +17,21 @@ rankdir="LR";
 
 ![QualityReviewTask_Organization](dot/QualityReviewTask_Organization.dot.png)
 
-## Nextlinks
+**Before:**
 
-   * 2 [QualityReviewTask_User](QualityReviewTask_User.md)
+   * [AttorneyTask_User](AttorneyTask_User.md): 2 times
 
-## Backlinks
+**After:**
 
-   * 2 [AttorneyTask_User](AttorneyTask_User.md)
+   * [QualityReviewTask_User](QualityReviewTask_User.md): 2 times
 
-## RTO.TVTO.DTO.IHPTO.JATU.ICTO.ICTU.THTU.JDRTU.ATU.QRTO
+## Task Creation Sequences
 
-1 occurrences (example appeals: [7729])
+### RTO.TVTO.DTO.IHPTO.JATU.ICTO.ICTU.THTU.JDRTU.ATU.QRTO
 
-<details><summary>PlantUML for 7729</summary>
+1 occurrences (example appeal IDs: [7729])
+
+<details><summary>Task Tree for appeal with ID 7729</summary>
 
 ```
 @startuml
@@ -64,11 +70,11 @@ object 14.BvaDispatchTask_User #e5c494
 
 ![RTO.TVTO.DTO.IHPTO.JATU.ICTO.ICTU.THTU.JDRTU.ATU.QRTO-7729](uml/RTO.TVTO.DTO.IHPTO.JATU.ICTO.ICTU.THTU.JDRTU.ATU.QRTO-7729.png)
 
-## RTO.TVTO.DTO.ESWTO.JATU.JDRTU.ATU.QRTO
+### RTO.TVTO.DTO.ESWTO.JATU.JDRTU.ATU.QRTO
 
-1 occurrences (example appeals: [15411])
+1 occurrences (example appeal IDs: [15411])
 
-<details><summary>PlantUML for 15411</summary>
+<details><summary>Task Tree for appeal with ID 15411</summary>
 
 ```
 @startuml

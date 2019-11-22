@@ -1,6 +1,10 @@
+| [README.md](README.md) | [Task Listing](tasklist.md) |
+
 # HearingTask_Organization
 
-<details><summary>Links for HearingTask_Organization</summary>
+## Tasks Created Before and After
+
+<details><summary>Tasks created before and after HearingTask_Organization</summary>
 
 ```
 digraph G {
@@ -17,23 +21,25 @@ rankdir="LR";
 
 ![HearingTask_Organization](dot/HearingTask_Organization.dot.png)
 
-## Nextlinks
+**Before:**
 
-   * 3 [AssignHearingDispositionTask_Organization](AssignHearingDispositionTask_Organization.md)
-   * 3 [HearingAdminActionVerifyAddressTask_Organization](HearingAdminActionVerifyAddressTask_Organization.md)
-   * 1 [TrackVeteranTask_Organization](TrackVeteranTask_Organization.md)
-   * 1 [TranslationTask_Organization](TranslationTask_Organization.md)
-   * 1 [ReturnedUndeliverableCorrespondenceMailTask_Organization](ReturnedUndeliverableCorrespondenceMailTask_Organization.md)
+   * [ScheduleHearingTask_Organization](ScheduleHearingTask_Organization.md): 128 times
 
-## Backlinks
+**After:**
 
-   * 128 [ScheduleHearingTask_Organization](ScheduleHearingTask_Organization.md)
+   * [AssignHearingDispositionTask_Organization](AssignHearingDispositionTask_Organization.md): 3 times
+   * [HearingAdminActionVerifyAddressTask_Organization](HearingAdminActionVerifyAddressTask_Organization.md): 3 times
+   * [TrackVeteranTask_Organization](TrackVeteranTask_Organization.md): 1 times
+   * [TranslationTask_Organization](TranslationTask_Organization.md): 1 times
+   * [ReturnedUndeliverableCorrespondenceMailTask_Organization](ReturnedUndeliverableCorrespondenceMailTask_Organization.md): 1 times
 
-## RTO.TVTO.DTO.SHTO.HTO
+## Task Creation Sequences
 
-119 occurrences (example appeals: [42769, 42820, 42010, 42071, 39818])
+### RTO.TVTO.DTO.SHTO.HTO
 
-<details><summary>PlantUML for 42769</summary>
+119 occurrences (example appeal IDs: [42769, 42820, 42010, 42071, 39818])
+
+<details><summary>Task Tree for appeal with ID 42769</summary>
 
 ```
 @startuml
@@ -52,11 +58,11 @@ object 4.HearingTask_Organization #e78ac3
 
 ![RTO.TVTO.DTO.SHTO.HTO-42769](uml/RTO.TVTO.DTO.SHTO.HTO-42769.png)
 
-## RTO.DTO.SHTO.HTO
+### RTO.DTO.SHTO.HTO
 
-9 occurrences (example appeals: [41136, 42097, 4988, 42691, 40835])
+9 occurrences (example appeal IDs: [41136, 42097, 4988, 42691, 40835])
 
-<details><summary>PlantUML for 41136</summary>
+<details><summary>Task Tree for appeal with ID 41136</summary>
 
 ```
 @startuml

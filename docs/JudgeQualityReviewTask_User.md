@@ -1,6 +1,10 @@
+| [README.md](README.md) | [Task Listing](tasklist.md) |
+
 # JudgeQualityReviewTask_User
 
-<details><summary>Links for JudgeQualityReviewTask_User</summary>
+## Tasks Created Before and After
+
+<details><summary>Tasks created before and after JudgeQualityReviewTask_User</summary>
 
 ```
 digraph G {
@@ -13,19 +17,21 @@ rankdir="LR";
 
 ![JudgeQualityReviewTask_User](dot/JudgeQualityReviewTask_User.dot.png)
 
-## Nextlinks
+**Before:**
 
-   * 1 [BvaDispatchTask_Organization](BvaDispatchTask_Organization.md)
+   * [QualityReviewTask_User](QualityReviewTask_User.md): 1 times
 
-## Backlinks
+**After:**
 
-   * 1 [QualityReviewTask_User](QualityReviewTask_User.md)
+   * [BvaDispatchTask_Organization](BvaDispatchTask_Organization.md): 1 times
 
-## RTO.TVTO.DTO.ESWTO.JATU.JDRTU.ATU.QRTO.QRTU.JQRTU
+## Task Creation Sequences
 
-1 occurrences (example appeals: [15411])
+### RTO.TVTO.DTO.ESWTO.JATU.JDRTU.ATU.QRTO.QRTU.JQRTU
 
-<details><summary>PlantUML for 15411</summary>
+1 occurrences (example appeal IDs: [15411])
+
+<details><summary>Task Tree for appeal with ID 15411</summary>
 
 ```
 @startuml

@@ -1,6 +1,10 @@
+| [README.md](README.md) | [Task Listing](tasklist.md) |
+
 # JudgeDispatchReturnTask_User
 
-<details><summary>Links for JudgeDispatchReturnTask_User</summary>
+## Tasks Created Before and After
+
+<details><summary>Tasks created before and after JudgeDispatchReturnTask_User</summary>
 
 ```
 digraph G {
@@ -13,20 +17,22 @@ rankdir="LR";
 
 ![JudgeDispatchReturnTask_User](dot/JudgeDispatchReturnTask_User.dot.png)
 
-## Nextlinks
+**Before:**
 
-   * 1 [JudgeDispatchReturnTask_User](JudgeDispatchReturnTask_User.md)
+   * [BvaDispatchTask_User](BvaDispatchTask_User.md): 1 times
+   * [JudgeDispatchReturnTask_User](JudgeDispatchReturnTask_User.md): 1 times
 
-## Backlinks
+**After:**
 
-   * 1 [BvaDispatchTask_User](BvaDispatchTask_User.md)
-   * 1 [JudgeDispatchReturnTask_User](JudgeDispatchReturnTask_User.md)
+   * [JudgeDispatchReturnTask_User](JudgeDispatchReturnTask_User.md): 1 times
 
-## RTO.TVTO.DTO.ESWTO.JATU.JDRTU.ATU.QRTO.QRTU.JQRTU.BDTO.BDTU.JDRTU
+## Task Creation Sequences
 
-1 occurrences (example appeals: [15411])
+### RTO.TVTO.DTO.ESWTO.JATU.JDRTU.ATU.QRTO.QRTU.JQRTU.BDTO.BDTU.JDRTU
 
-<details><summary>PlantUML for 15411</summary>
+1 occurrences (example appeal IDs: [15411])
+
+<details><summary>Task Tree for appeal with ID 15411</summary>
 
 ```
 @startuml
@@ -65,11 +71,11 @@ object 14.JudgeDispatchReturnTask_User #fc8d62
 
 ![RTO.TVTO.DTO.ESWTO.JATU.JDRTU.ATU.QRTO.QRTU.JQRTU.BDTO.BDTU.JDRTU-15411](uml/RTO.TVTO.DTO.ESWTO.JATU.JDRTU.ATU.QRTO.QRTU.JQRTU.BDTO.BDTU.JDRTU-15411.png)
 
-## RTO.TVTO.DTO.ESWTO.JATU.JDRTU.ATU.QRTO.QRTU.JQRTU.BDTO.BDTU.JDRTU.JDRTU
+### RTO.TVTO.DTO.ESWTO.JATU.JDRTU.ATU.QRTO.QRTU.JQRTU.BDTO.BDTU.JDRTU.JDRTU
 
-1 occurrences (example appeals: [15411])
+1 occurrences (example appeal IDs: [15411])
 
-<details><summary>PlantUML for 15411</summary>
+<details><summary>Task Tree for appeal with ID 15411</summary>
 
 ```
 @startuml

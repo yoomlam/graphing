@@ -1,6 +1,10 @@
+| [README.md](README.md) | [Task Listing](tasklist.md) |
+
 # AssignHearingDispositionTask_Organization
 
-<details><summary>Links for AssignHearingDispositionTask_Organization</summary>
+## Tasks Created Before and After
+
+<details><summary>Tasks created before and after AssignHearingDispositionTask_Organization</summary>
 
 ```
 digraph G {
@@ -12,18 +16,20 @@ rankdir="LR";
 
 ![AssignHearingDispositionTask_Organization](dot/AssignHearingDispositionTask_Organization.dot.png)
 
-## Nextlinks
+**Before:**
+
+   * [HearingTask_Organization](HearingTask_Organization.md): 3 times
+
+**After:**
 
 
-## Backlinks
+## Task Creation Sequences
 
-   * 3 [HearingTask_Organization](HearingTask_Organization.md)
+### RTO.TVTO.DTO.SHTO.HTO.AHDTO
 
-## RTO.TVTO.DTO.SHTO.HTO.AHDTO
+3 occurrences (example appeal IDs: [42246, 41907, 40879])
 
-3 occurrences (example appeals: [42246, 41907, 40879])
-
-<details><summary>PlantUML for 42246</summary>
+<details><summary>Task Tree for appeal with ID 42246</summary>
 
 ```
 @startuml

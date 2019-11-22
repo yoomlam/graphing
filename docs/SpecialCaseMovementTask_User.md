@@ -1,6 +1,10 @@
+| [README.md](README.md) | [Task Listing](tasklist.md) |
+
 # SpecialCaseMovementTask_User
 
-<details><summary>Links for SpecialCaseMovementTask_User</summary>
+## Tasks Created Before and After
+
+<details><summary>Tasks created before and after SpecialCaseMovementTask_User</summary>
 
 ```
 digraph G {
@@ -14,20 +18,22 @@ rankdir="LR";
 
 ![SpecialCaseMovementTask_User](dot/SpecialCaseMovementTask_User.dot.png)
 
-## Nextlinks
+**Before:**
 
-   * 2 [JudgeAssignTask_User](JudgeAssignTask_User.md)
+   * [DistributionTask_Organization](DistributionTask_Organization.md): 1 times
+   * [EvidenceSubmissionWindowTask_Organization](EvidenceSubmissionWindowTask_Organization.md): 1 times
 
-## Backlinks
+**After:**
 
-   * 1 [DistributionTask_Organization](DistributionTask_Organization.md)
-   * 1 [EvidenceSubmissionWindowTask_Organization](EvidenceSubmissionWindowTask_Organization.md)
+   * [JudgeAssignTask_User](JudgeAssignTask_User.md): 2 times
 
-## RTO.DTO.SCMTU
+## Task Creation Sequences
 
-1 occurrences (example appeals: [41963])
+### RTO.DTO.SCMTU
 
-<details><summary>PlantUML for 41963</summary>
+1 occurrences (example appeal IDs: [41963])
+
+<details><summary>Task Tree for appeal with ID 41963</summary>
 
 ```
 @startuml
@@ -44,11 +50,11 @@ object 3.JudgeAssignTask_User #8da0cb
 
 ![RTO.DTO.SCMTU-41963](uml/RTO.DTO.SCMTU-41963.png)
 
-## RTO.DTO.ESWTO.SCMTU
+### RTO.DTO.ESWTO.SCMTU
 
-1 occurrences (example appeals: [40605])
+1 occurrences (example appeal IDs: [40605])
 
-<details><summary>PlantUML for 40605</summary>
+<details><summary>Task Tree for appeal with ID 40605</summary>
 
 ```
 @startuml

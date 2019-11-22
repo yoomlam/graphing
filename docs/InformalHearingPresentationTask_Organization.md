@@ -1,6 +1,10 @@
+| [README.md](README.md) | [Task Listing](tasklist.md) |
+
 # InformalHearingPresentationTask_Organization
 
-<details><summary>Links for InformalHearingPresentationTask_Organization</summary>
+## Tasks Created Before and After
+
+<details><summary>Tasks created before and after InformalHearingPresentationTask_Organization</summary>
 
 ```
 digraph G {
@@ -18,24 +22,26 @@ rankdir="LR";
 
 ![InformalHearingPresentationTask_Organization](dot/InformalHearingPresentationTask_Organization.dot.png)
 
-## Nextlinks
+**Before:**
 
-   * 8 [InformalHearingPresentationTask_User](InformalHearingPresentationTask_User.md)
-   * 7 [JudgeAssignTask_User](JudgeAssignTask_User.md)
-   * 1 [BvaDispatchTask_Organization](BvaDispatchTask_Organization.md)
-   * 1 [VeteranRecordRequest_Organization](VeteranRecordRequest_Organization.md)
+   * [DistributionTask_Organization](DistributionTask_Organization.md): 75 times
+   * [EvidenceSubmissionWindowTask_Organization](EvidenceSubmissionWindowTask_Organization.md): 9 times
+   * [TrackVeteranTask_Organization](TrackVeteranTask_Organization.md): 1 times
 
-## Backlinks
+**After:**
 
-   * 75 [DistributionTask_Organization](DistributionTask_Organization.md)
-   * 9 [EvidenceSubmissionWindowTask_Organization](EvidenceSubmissionWindowTask_Organization.md)
-   * 1 [TrackVeteranTask_Organization](TrackVeteranTask_Organization.md)
+   * [InformalHearingPresentationTask_User](InformalHearingPresentationTask_User.md): 8 times
+   * [JudgeAssignTask_User](JudgeAssignTask_User.md): 7 times
+   * [BvaDispatchTask_Organization](BvaDispatchTask_Organization.md): 1 times
+   * [VeteranRecordRequest_Organization](VeteranRecordRequest_Organization.md): 1 times
 
-## RTO.TVTO.DTO.IHPTO
+## Task Creation Sequences
 
-75 occurrences (example appeals: [34538, 39812, 41319, 41838, 42495])
+### RTO.TVTO.DTO.IHPTO
 
-<details><summary>PlantUML for 34538</summary>
+75 occurrences (example appeal IDs: [34538, 39812, 41319, 41838, 42495])
+
+<details><summary>Task Tree for appeal with ID 34538</summary>
 
 ```
 @startuml
@@ -66,11 +72,11 @@ object 10.BvaDispatchTask_User #e5c494
 
 ![RTO.TVTO.DTO.IHPTO-34538](uml/RTO.TVTO.DTO.IHPTO-34538.png)
 
-## RTO.TVTO.DTO.ESWTO.IHPTO
+### RTO.TVTO.DTO.ESWTO.IHPTO
 
-9 occurrences (example appeals: [40596, 15370, 42548, 41133, 40540])
+9 occurrences (example appeal IDs: [40596, 15370, 42548, 41133, 40540])
 
-<details><summary>PlantUML for 40596</summary>
+<details><summary>Task Tree for appeal with ID 40596</summary>
 
 ```
 @startuml
@@ -89,11 +95,11 @@ object 4.InformalHearingPresentationTask_Organization #ffd92f
 
 ![RTO.TVTO.DTO.ESWTO.IHPTO-40596](uml/RTO.TVTO.DTO.ESWTO.IHPTO-40596.png)
 
-## RTO.DTO.JATU.JDRTU.ATU.TVTO.IHPTO
+### RTO.DTO.JATU.JDRTU.ATU.TVTO.IHPTO
 
-1 occurrences (example appeals: [3875])
+1 occurrences (example appeal IDs: [3875])
 
-<details><summary>PlantUML for 3875</summary>
+<details><summary>Task Tree for appeal with ID 3875</summary>
 
 ```
 @startuml

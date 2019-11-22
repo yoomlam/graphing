@@ -1,6 +1,10 @@
+| [README.md](README.md) | [Task Listing](tasklist.md) |
+
 # Task_Organization
 
-<details><summary>Links for Task_Organization</summary>
+## Tasks Created Before and After
+
+<details><summary>Tasks created before and after Task_Organization</summary>
 
 ```
 digraph G {
@@ -12,18 +16,20 @@ rankdir="LR";
 
 ![Task_Organization](dot/Task_Organization.dot.png)
 
-## Nextlinks
+**Before:**
+
+   * [ReturnedUndeliverableCorrespondenceMailTask_User](ReturnedUndeliverableCorrespondenceMailTask_User.md): 1 times
+
+**After:**
 
 
-## Backlinks
+## Task Creation Sequences
 
-   * 1 [ReturnedUndeliverableCorrespondenceMailTask_User](ReturnedUndeliverableCorrespondenceMailTask_User.md)
+### RTO.TVTO.DTO.IHPTO.JATU.JDRTU.ATU.BDTO.BDTU.RUCMTO.RUCMTO.RUCMTU.TO
 
-## RTO.TVTO.DTO.IHPTO.JATU.JDRTU.ATU.BDTO.BDTU.RUCMTO.RUCMTO.RUCMTU.TO
+1 occurrences (example appeal IDs: [29665])
 
-1 occurrences (example appeals: [29665])
-
-<details><summary>PlantUML for 29665</summary>
+<details><summary>Task Tree for appeal with ID 29665</summary>
 
 ```
 @startuml

@@ -1,6 +1,10 @@
+| [README.md](README.md) | [Task Listing](tasklist.md) |
+
 # EvidenceOrArgumentMailTask_User
 
-<details><summary>Links for EvidenceOrArgumentMailTask_User</summary>
+## Tasks Created Before and After
+
+<details><summary>Tasks created before and after EvidenceOrArgumentMailTask_User</summary>
 
 ```
 digraph G {
@@ -13,19 +17,21 @@ rankdir="LR";
 
 ![EvidenceOrArgumentMailTask_User](dot/EvidenceOrArgumentMailTask_User.dot.png)
 
-## Nextlinks
+**Before:**
 
-   * 1 [JudgeAssignTask_User](JudgeAssignTask_User.md)
+   * [EvidenceOrArgumentMailTask_Organization](EvidenceOrArgumentMailTask_Organization.md): 1 times
 
-## Backlinks
+**After:**
 
-   * 1 [EvidenceOrArgumentMailTask_Organization](EvidenceOrArgumentMailTask_Organization.md)
+   * [JudgeAssignTask_User](JudgeAssignTask_User.md): 1 times
 
-## RTO.DTO.EOAMTO.EOAMTO.EOAMTU
+## Task Creation Sequences
 
-1 occurrences (example appeals: [10213])
+### RTO.DTO.EOAMTO.EOAMTO.EOAMTU
 
-<details><summary>PlantUML for 10213</summary>
+1 occurrences (example appeal IDs: [10213])
+
+<details><summary>Task Tree for appeal with ID 10213</summary>
 
 ```
 @startuml

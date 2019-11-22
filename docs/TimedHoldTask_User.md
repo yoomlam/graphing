@@ -1,6 +1,10 @@
+| [README.md](README.md) | [Task Listing](tasklist.md) |
+
 # TimedHoldTask_User
 
-<details><summary>Links for TimedHoldTask_User</summary>
+## Tasks Created Before and After
+
+<details><summary>Tasks created before and after TimedHoldTask_User</summary>
 
 ```
 digraph G {
@@ -13,19 +17,21 @@ rankdir="LR";
 
 ![TimedHoldTask_User](dot/TimedHoldTask_User.dot.png)
 
-## Nextlinks
+**Before:**
 
-   * 1 [JudgeDecisionReviewTask_User](JudgeDecisionReviewTask_User.md)
+   * [IhpColocatedTask_User](IhpColocatedTask_User.md): 1 times
 
-## Backlinks
+**After:**
 
-   * 1 [IhpColocatedTask_User](IhpColocatedTask_User.md)
+   * [JudgeDecisionReviewTask_User](JudgeDecisionReviewTask_User.md): 1 times
 
-## RTO.TVTO.DTO.IHPTO.JATU.ICTO.ICTU.THTU
+## Task Creation Sequences
 
-1 occurrences (example appeals: [7729])
+### RTO.TVTO.DTO.IHPTO.JATU.ICTO.ICTU.THTU
 
-<details><summary>PlantUML for 7729</summary>
+1 occurrences (example appeal IDs: [7729])
+
+<details><summary>Task Tree for appeal with ID 7729</summary>
 
 ```
 @startuml

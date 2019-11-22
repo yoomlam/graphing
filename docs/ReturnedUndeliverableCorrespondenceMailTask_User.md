@@ -1,6 +1,10 @@
+| [README.md](README.md) | [Task Listing](tasklist.md) |
+
 # ReturnedUndeliverableCorrespondenceMailTask_User
 
-<details><summary>Links for ReturnedUndeliverableCorrespondenceMailTask_User</summary>
+## Tasks Created Before and After
+
+<details><summary>Tasks created before and after ReturnedUndeliverableCorrespondenceMailTask_User</summary>
 
 ```
 digraph G {
@@ -13,19 +17,21 @@ rankdir="LR";
 
 ![ReturnedUndeliverableCorrespondenceMailTask_User](dot/ReturnedUndeliverableCorrespondenceMailTask_User.dot.png)
 
-## Nextlinks
+**Before:**
 
-   * 1 [Task_Organization](Task_Organization.md)
+   * [ReturnedUndeliverableCorrespondenceMailTask_Organization](ReturnedUndeliverableCorrespondenceMailTask_Organization.md): 1 times
 
-## Backlinks
+**After:**
 
-   * 1 [ReturnedUndeliverableCorrespondenceMailTask_Organization](ReturnedUndeliverableCorrespondenceMailTask_Organization.md)
+   * [Task_Organization](Task_Organization.md): 1 times
 
-## RTO.TVTO.DTO.IHPTO.JATU.JDRTU.ATU.BDTO.BDTU.RUCMTO.RUCMTO.RUCMTU
+## Task Creation Sequences
 
-1 occurrences (example appeals: [29665])
+### RTO.TVTO.DTO.IHPTO.JATU.JDRTU.ATU.BDTO.BDTU.RUCMTO.RUCMTO.RUCMTU
 
-<details><summary>PlantUML for 29665</summary>
+1 occurrences (example appeal IDs: [29665])
+
+<details><summary>Task Tree for appeal with ID 29665</summary>
 
 ```
 @startuml
