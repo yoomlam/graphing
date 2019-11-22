@@ -11,7 +11,7 @@ rankdir="LR";
 ```
 </details>
 
-![RTO.TVTO.DTO.SHTO.HTO.HAAVATO-42837](dot/RTO.TVTO.DTO.SHTO.HTO.HAAVATO.dot.png)
+![AttorneyRewriteTask_User](dot/AttorneyRewriteTask_User.dot.png)
 
 ## Nextlinks
 

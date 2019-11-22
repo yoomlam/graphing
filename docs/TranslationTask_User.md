@@ -10,7 +10,7 @@ rankdir="LR";
 ```
 </details>
 
-![RTO.TVTO.DTO.IHPTO.VRRO-42651](dot/RTO.TVTO.DTO.IHPTO.VRRO.dot.png)
+![TranslationTask_User](dot/TranslationTask_User.dot.png)
 
 ## Nextlinks
 

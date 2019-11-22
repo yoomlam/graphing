@@ -5,14 +5,14 @@
 ```
 digraph G {
 rankdir="LR";
-"QualityReviewTask_User" -> "JudgeQualityReviewTask_User" [label=1]
-"QualityReviewTask_User" -> "BvaDispatchTask_Organization" [label=1]
 "QualityReviewTask_Organization" -> "QualityReviewTask_User" [label=2]
+"QualityReviewTask_User" -> "BvaDispatchTask_Organization" [label=1]
+"QualityReviewTask_User" -> "JudgeQualityReviewTask_User" [label=1]
 }
 ```
 </details>
 
-![RTO.TVTO.DTO.ESWTO.JATU.JDRTU.ATU.QRTO-15411](dot/RTO.TVTO.DTO.ESWTO.JATU.JDRTU.ATU.QRTO.dot.png)
+![QualityReviewTask_User](dot/QualityReviewTask_User.dot.png)
 
 ## Nextlinks
 

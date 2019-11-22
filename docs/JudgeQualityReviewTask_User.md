@@ -11,7 +11,7 @@ rankdir="LR";
 ```
 </details>
 
-![RTO.TVTO.DTO.ESWTO.JATU.JDRTU.ATU.QRTO.QRTU-15411](dot/RTO.TVTO.DTO.ESWTO.JATU.JDRTU.ATU.QRTO.QRTU.dot.png)
+![JudgeQualityReviewTask_User](dot/JudgeQualityReviewTask_User.dot.png)
 
 ## Nextlinks
 

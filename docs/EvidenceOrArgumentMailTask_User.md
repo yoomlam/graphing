@@ -11,7 +11,7 @@ rankdir="LR";
 ```
 </details>
 
-![RTO.DTO.EOAMTO-10213](dot/RTO.DTO.EOAMTO.dot.png)
+![EvidenceOrArgumentMailTask_User](dot/EvidenceOrArgumentMailTask_User.dot.png)
 
 ## Nextlinks
 

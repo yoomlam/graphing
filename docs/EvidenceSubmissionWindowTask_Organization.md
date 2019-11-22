@@ -5,16 +5,16 @@
 ```
 digraph G {
 rankdir="LR";
-"EvidenceSubmissionWindowTask_Organization" -> "InformalHearingPresentationTask_Organization" [label=9]
 "EvidenceSubmissionWindowTask_Organization" -> "TrackVeteranTask_Organization" [label=2]
 "EvidenceSubmissionWindowTask_Organization" -> "JudgeAssignTask_User" [label=2]
-"EvidenceSubmissionWindowTask_Organization" -> "SpecialCaseMovementTask_User" [label=1]
+"EvidenceSubmissionWindowTask_Organization" -> "InformalHearingPresentationTask_Organization" [label=9]
 "DistributionTask_Organization" -> "EvidenceSubmissionWindowTask_Organization" [label=103]
+"EvidenceSubmissionWindowTask_Organization" -> "SpecialCaseMovementTask_User" [label=1]
 }
 ```
 </details>
 
-![RTO.TVTO.DTO.ESWTO.IHPTO.JATU.JDRTU.ATU.ARTU.BDTO.BDTU-11522](dot/RTO.TVTO.DTO.ESWTO.IHPTO.JATU.JDRTU.ATU.ARTU.BDTO.BDTU.dot.png)
+![EvidenceSubmissionWindowTask_Organization](dot/EvidenceSubmissionWindowTask_Organization.dot.png)
 
 ## Nextlinks
 

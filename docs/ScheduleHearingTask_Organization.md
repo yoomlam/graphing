@@ -5,13 +5,13 @@
 ```
 digraph G {
 rankdir="LR";
-"ScheduleHearingTask_Organization" -> "HearingTask_Organization" [label=128]
 "DistributionTask_Organization" -> "ScheduleHearingTask_Organization" [label=128]
+"ScheduleHearingTask_Organization" -> "HearingTask_Organization" [label=128]
 }
 ```
 </details>
 
-![DTO-6702](dot/DTO.dot.png)
+![ScheduleHearingTask_Organization](dot/ScheduleHearingTask_Organization.dot.png)
 
 ## Nextlinks
 

@@ -5,17 +5,17 @@
 ```
 digraph G {
 rankdir="LR";
-"HearingTask_Organization" -> "AssignHearingDispositionTask_Organization" [label=3]
 "HearingTask_Organization" -> "HearingAdminActionVerifyAddressTask_Organization" [label=3]
+"ScheduleHearingTask_Organization" -> "HearingTask_Organization" [label=128]
+"HearingTask_Organization" -> "AssignHearingDispositionTask_Organization" [label=3]
 "HearingTask_Organization" -> "TrackVeteranTask_Organization" [label=1]
 "HearingTask_Organization" -> "TranslationTask_Organization" [label=1]
 "HearingTask_Organization" -> "ReturnedUndeliverableCorrespondenceMailTask_Organization" [label=1]
-"ScheduleHearingTask_Organization" -> "HearingTask_Organization" [label=128]
 }
 ```
 </details>
 
-![RTO.DTO.SHTO-41136](dot/RTO.DTO.SHTO.dot.png)
+![HearingTask_Organization](dot/HearingTask_Organization.dot.png)
 
 ## Nextlinks
 

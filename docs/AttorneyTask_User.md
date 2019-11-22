@@ -5,18 +5,18 @@
 ```
 digraph G {
 rankdir="LR";
+"JudgeDecisionReviewTask_User" -> "AttorneyTask_User" [label=29]
+"AttorneyTask_User" -> "JudgeDecisionReviewTask_User" [label=1]
 "AttorneyTask_User" -> "BvaDispatchTask_Organization" [label=16]
 "AttorneyTask_User" -> "QualityReviewTask_Organization" [label=2]
-"AttorneyTask_User" -> "AttorneyRewriteTask_User" [label=2]
-"AttorneyTask_User" -> "JudgeDecisionReviewTask_User" [label=1]
-"AttorneyTask_User" -> "TrackVeteranTask_Organization" [label=1]
-"JudgeDecisionReviewTask_User" -> "AttorneyTask_User" [label=29]
 "JudgeAssignTask_User" -> "AttorneyTask_User" [label=1]
+"AttorneyTask_User" -> "TrackVeteranTask_Organization" [label=1]
+"AttorneyTask_User" -> "AttorneyRewriteTask_User" [label=2]
 }
 ```
 </details>
 
-![RTO.DTO.EOAMTO.EOAMTO.EOAMTU.JATU.JDRTU-10213](dot/RTO.DTO.EOAMTO.EOAMTO.EOAMTU.JATU.JDRTU.dot.png)
+![AttorneyTask_User](dot/AttorneyTask_User.dot.png)
 
 ## Nextlinks
 

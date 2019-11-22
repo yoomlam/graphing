@@ -5,14 +5,14 @@
 ```
 digraph G {
 rankdir="LR";
-"BvaDispatchTask_User" -> "JudgeDispatchReturnTask_User" [label=1]
 "BvaDispatchTask_User" -> "ReturnedUndeliverableCorrespondenceMailTask_Organization" [label=1]
+"BvaDispatchTask_User" -> "JudgeDispatchReturnTask_User" [label=1]
 "BvaDispatchTask_Organization" -> "BvaDispatchTask_User" [label=22]
 }
 ```
 </details>
 
-![RTO.DTO.JATU.JDRTU.ATU.TVTO.IHPTO.BDTO-3875](dot/RTO.DTO.JATU.JDRTU.ATU.TVTO.IHPTO.BDTO.dot.png)
+![BvaDispatchTask_User](dot/BvaDispatchTask_User.dot.png)
 
 ## Nextlinks
 

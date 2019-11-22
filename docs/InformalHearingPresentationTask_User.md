@@ -5,13 +5,13 @@
 ```
 digraph G {
 rankdir="LR";
-"InformalHearingPresentationTask_User" -> "JudgeAssignTask_User" [label=6]
 "InformalHearingPresentationTask_Organization" -> "InformalHearingPresentationTask_User" [label=8]
+"InformalHearingPresentationTask_User" -> "JudgeAssignTask_User" [label=6]
 }
 ```
 </details>
 
-![RTO.TVTO.DTO.SHTO.HTO.AHDTO-42246](dot/RTO.TVTO.DTO.SHTO.HTO.AHDTO.dot.png)
+![InformalHearingPresentationTask_User](dot/InformalHearingPresentationTask_User.dot.png)
 
 ## Nextlinks
 

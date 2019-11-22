@@ -12,7 +12,7 @@ rankdir="LR";
 ```
 </details>
 
-![RTO.TVTO.DTO.ESWTO.IHPTO.IHPTU-15370](dot/RTO.TVTO.DTO.ESWTO.IHPTO.IHPTU.dot.png)
+![SpecialCaseMovementTask_User](dot/SpecialCaseMovementTask_User.dot.png)
 
 ## Nextlinks
 

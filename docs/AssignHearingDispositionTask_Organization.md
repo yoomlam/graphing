@@ -10,7 +10,7 @@ rankdir="LR";
 ```
 </details>
 
-![RTO.DTO.SHTO.HTO.TTO-24900](dot/RTO.DTO.SHTO.HTO.TTO.dot.png)
+![AssignHearingDispositionTask_Organization](dot/AssignHearingDispositionTask_Organization.dot.png)
 
 ## Nextlinks
 

@@ -5,15 +5,14 @@
 ```
 digraph G {
 rankdir="LR";
-"EvidenceOrArgumentMailTask_Organization" -> "EvidenceOrArgumentMailTask_Organization" [label=1]
 "EvidenceOrArgumentMailTask_Organization" -> "EvidenceOrArgumentMailTask_User" [label=1]
-"DistributionTask_Organization" -> "EvidenceOrArgumentMailTask_Organization" [label=1]
 "EvidenceOrArgumentMailTask_Organization" -> "EvidenceOrArgumentMailTask_Organization" [label=1]
+"DistributionTask_Organization" -> "EvidenceOrArgumentMailTask_Organization" [label=1]
 }
 ```
 </details>
 
-![RTO.TVTO.TVTO.DTO.ESWTO-40894](dot/RTO.TVTO.TVTO.DTO.ESWTO.dot.png)
+![EvidenceOrArgumentMailTask_Organization](dot/EvidenceOrArgumentMailTask_Organization.dot.png)
 
 ## Nextlinks
 

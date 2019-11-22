@@ -5,14 +5,14 @@
 ```
 digraph G {
 rankdir="LR";
+"HearingTask_Organization" -> "TranslationTask_Organization" [label=1]
 "TranslationTask_Organization" -> "TranslationTask_User" [label=1]
 "DistributionTask_Organization" -> "TranslationTask_Organization" [label=1]
-"HearingTask_Organization" -> "TranslationTask_Organization" [label=1]
 }
 ```
 </details>
 
-![RTO.DTO.EOAMTO.EOAMTO.EOAMTU-10213](dot/RTO.DTO.EOAMTO.EOAMTO.EOAMTU.dot.png)
+![TranslationTask_Organization](dot/TranslationTask_Organization.dot.png)
 
 ## Nextlinks
 

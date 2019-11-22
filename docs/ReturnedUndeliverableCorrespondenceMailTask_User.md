@@ -11,7 +11,7 @@ rankdir="LR";
 ```
 </details>
 
-![RTO.TVTO.DTO.SHTO.HTO.RUCMTO-2056](dot/RTO.TVTO.DTO.SHTO.HTO.RUCMTO.dot.png)
+![ReturnedUndeliverableCorrespondenceMailTask_User](dot/ReturnedUndeliverableCorrespondenceMailTask_User.dot.png)
 
 ## Nextlinks
 

@@ -5,21 +5,21 @@
 ```
 digraph G {
 rankdir="LR";
+"DistributionTask_Organization" -> "TrackVeteranTask_Organization" [label=1]
+"DistributionTask_Organization" -> "JudgeAssignTask_User" [label=16]
 "DistributionTask_Organization" -> "ScheduleHearingTask_Organization" [label=128]
+"RootTask_Organization" -> "DistributionTask_Organization" [label=102]
+"DistributionTask_Organization" -> "EvidenceOrArgumentMailTask_Organization" [label=1]
+"DistributionTask_Organization" -> "SpecialCaseMovementTask_User" [label=1]
 "DistributionTask_Organization" -> "EvidenceSubmissionWindowTask_Organization" [label=103]
 "DistributionTask_Organization" -> "InformalHearingPresentationTask_Organization" [label=75]
-"DistributionTask_Organization" -> "JudgeAssignTask_User" [label=16]
-"DistributionTask_Organization" -> "EvidenceOrArgumentMailTask_Organization" [label=1]
-"DistributionTask_Organization" -> "TranslationTask_Organization" [label=1]
-"DistributionTask_Organization" -> "SpecialCaseMovementTask_User" [label=1]
-"DistributionTask_Organization" -> "TrackVeteranTask_Organization" [label=1]
 "TrackVeteranTask_Organization" -> "DistributionTask_Organization" [label=301]
-"RootTask_Organization" -> "DistributionTask_Organization" [label=102]
+"DistributionTask_Organization" -> "TranslationTask_Organization" [label=1]
 }
 ```
 </details>
 
-![RTO.DTO.SHTO.HTO.TVTO-4988](dot/RTO.DTO.SHTO.HTO.TVTO.dot.png)
+![DistributionTask_Organization](dot/DistributionTask_Organization.dot.png)
 
 ## Nextlinks
 

@@ -5,21 +5,21 @@
 ```
 digraph G {
 rankdir="LR";
-"JudgeAssignTask_User" -> "JudgeDecisionReviewTask_User" [label=28]
-"JudgeAssignTask_User" -> "AttorneyTask_User" [label=1]
-"JudgeAssignTask_User" -> "IhpColocatedTask_Organization" [label=1]
 "DistributionTask_Organization" -> "JudgeAssignTask_User" [label=16]
-"InformalHearingPresentationTask_Organization" -> "JudgeAssignTask_User" [label=7]
 "InformalHearingPresentationTask_User" -> "JudgeAssignTask_User" [label=6]
-"TrackVeteranTask_Organization" -> "JudgeAssignTask_User" [label=3]
-"SpecialCaseMovementTask_User" -> "JudgeAssignTask_User" [label=2]
 "EvidenceSubmissionWindowTask_Organization" -> "JudgeAssignTask_User" [label=2]
 "EvidenceOrArgumentMailTask_User" -> "JudgeAssignTask_User" [label=1]
+"JudgeAssignTask_User" -> "JudgeDecisionReviewTask_User" [label=28]
+"JudgeAssignTask_User" -> "IhpColocatedTask_Organization" [label=1]
+"JudgeAssignTask_User" -> "AttorneyTask_User" [label=1]
+"SpecialCaseMovementTask_User" -> "JudgeAssignTask_User" [label=2]
+"TrackVeteranTask_Organization" -> "JudgeAssignTask_User" [label=3]
+"InformalHearingPresentationTask_Organization" -> "JudgeAssignTask_User" [label=7]
 }
 ```
 </details>
 
-![RTO.DTO.JATU.JDRTU.ATU.TVTO.IHPTO-3875](dot/RTO.DTO.JATU.JDRTU.ATU.TVTO.IHPTO.dot.png)
+![JudgeAssignTask_User](dot/JudgeAssignTask_User.dot.png)
 
 ## Nextlinks
 

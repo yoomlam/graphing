@@ -5,18 +5,18 @@
 ```
 digraph G {
 rankdir="LR";
+"AttorneyRewriteTask_User" -> "BvaDispatchTask_Organization" [label=2]
 "BvaDispatchTask_Organization" -> "BvaDispatchTask_User" [label=22]
 "AttorneyTask_User" -> "BvaDispatchTask_Organization" [label=16]
-"AttorneyRewriteTask_User" -> "BvaDispatchTask_Organization" [label=2]
 "JudgeDecisionReviewTask_User" -> "BvaDispatchTask_Organization" [label=1]
+"QualityReviewTask_User" -> "BvaDispatchTask_Organization" [label=1]
 "InformalHearingPresentationTask_Organization" -> "BvaDispatchTask_Organization" [label=1]
 "JudgeQualityReviewTask_User" -> "BvaDispatchTask_Organization" [label=1]
-"QualityReviewTask_User" -> "BvaDispatchTask_Organization" [label=1]
 }
 ```
 </details>
 
-![RTO.DTO.ESWTO.SCMTU.JATU.JDRTU.ATU-40605](dot/RTO.DTO.ESWTO.SCMTU.JATU.JDRTU.ATU.dot.png)
+![BvaDispatchTask_Organization](dot/BvaDispatchTask_Organization.dot.png)
 
 ## Nextlinks
 

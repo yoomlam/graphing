@@ -7,12 +7,11 @@ digraph G {
 rankdir="LR";
 "JudgeDispatchReturnTask_User" -> "JudgeDispatchReturnTask_User" [label=1]
 "BvaDispatchTask_User" -> "JudgeDispatchReturnTask_User" [label=1]
-"JudgeDispatchReturnTask_User" -> "JudgeDispatchReturnTask_User" [label=1]
 }
 ```
 </details>
 
-![RTO.TVTO.DTO.ESWTO.JATU.JDRTU.ATU.QRTO.QRTU.JQRTU-15411](dot/RTO.TVTO.DTO.ESWTO.JATU.JDRTU.ATU.QRTO.QRTU.JQRTU.dot.png)
+![JudgeDispatchReturnTask_User](dot/JudgeDispatchReturnTask_User.dot.png)
 
 ## Nextlinks
 

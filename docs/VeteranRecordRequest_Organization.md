@@ -10,7 +10,7 @@ rankdir="LR";
 ```
 </details>
 
-![RTO.DTO.ESWTO.SCMTU.JATU.JDRTU.ATU.ARTU-40605](dot/RTO.DTO.ESWTO.SCMTU.JATU.JDRTU.ATU.ARTU.dot.png)
+![VeteranRecordRequest_Organization](dot/VeteranRecordRequest_Organization.dot.png)
 
 ## Nextlinks
 

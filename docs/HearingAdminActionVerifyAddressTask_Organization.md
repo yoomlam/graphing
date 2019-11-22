@@ -10,7 +10,7 @@ rankdir="LR";
 ```
 </details>
 
-![RTO.TVTO.DTO.IHPTO.JATU.ICTO.ICTU.THTU-7729](dot/RTO.TVTO.DTO.IHPTO.JATU.ICTO.ICTU.THTU.dot.png)
+![HearingAdminActionVerifyAddressTask_Organization](dot/HearingAdminActionVerifyAddressTask_Organization.dot.png)
 
 ## Nextlinks
 

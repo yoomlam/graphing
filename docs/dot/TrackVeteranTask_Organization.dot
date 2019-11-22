@@ -1,0 +1,12 @@
+digraph G {
+rankdir="LR";
+"DistributionTask_Organization" -> "TrackVeteranTask_Organization" [label=1]
+"EvidenceSubmissionWindowTask_Organization" -> "TrackVeteranTask_Organization" [label=2]
+"TrackVeteranTask_Organization" -> "TrackVeteranTask_Organization" [label=3]
+"RootTask_Organization" -> "TrackVeteranTask_Organization" [label=301]
+"TrackVeteranTask_Organization" -> "InformalHearingPresentationTask_Organization" [label=1]
+"HearingTask_Organization" -> "TrackVeteranTask_Organization" [label=1]
+"TrackVeteranTask_Organization" -> "JudgeAssignTask_User" [label=3]
+"AttorneyTask_User" -> "TrackVeteranTask_Organization" [label=1]
+"TrackVeteranTask_Organization" -> "DistributionTask_Organization" [label=301]
+}

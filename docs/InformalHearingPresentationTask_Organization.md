@@ -5,18 +5,18 @@
 ```
 digraph G {
 rankdir="LR";
-"InformalHearingPresentationTask_Organization" -> "InformalHearingPresentationTask_User" [label=8]
-"InformalHearingPresentationTask_Organization" -> "JudgeAssignTask_User" [label=7]
-"InformalHearingPresentationTask_Organization" -> "BvaDispatchTask_Organization" [label=1]
-"InformalHearingPresentationTask_Organization" -> "VeteranRecordRequest_Organization" [label=1]
-"DistributionTask_Organization" -> "InformalHearingPresentationTask_Organization" [label=75]
-"EvidenceSubmissionWindowTask_Organization" -> "InformalHearingPresentationTask_Organization" [label=9]
 "TrackVeteranTask_Organization" -> "InformalHearingPresentationTask_Organization" [label=1]
+"InformalHearingPresentationTask_Organization" -> "VeteranRecordRequest_Organization" [label=1]
+"InformalHearingPresentationTask_Organization" -> "BvaDispatchTask_Organization" [label=1]
+"InformalHearingPresentationTask_Organization" -> "InformalHearingPresentationTask_User" [label=8]
+"DistributionTask_Organization" -> "InformalHearingPresentationTask_Organization" [label=75]
+"InformalHearingPresentationTask_Organization" -> "JudgeAssignTask_User" [label=7]
+"EvidenceSubmissionWindowTask_Organization" -> "InformalHearingPresentationTask_Organization" [label=9]
 }
 ```
 </details>
 
-![RTO.DTO.SHTO.HTO-41136](dot/RTO.DTO.SHTO.HTO.dot.png)
+![InformalHearingPresentationTask_Organization](dot/InformalHearingPresentationTask_Organization.dot.png)
 
 ## Nextlinks
 

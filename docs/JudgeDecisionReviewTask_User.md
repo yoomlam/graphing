@@ -6,15 +6,15 @@
 digraph G {
 rankdir="LR";
 "JudgeDecisionReviewTask_User" -> "AttorneyTask_User" [label=29]
-"JudgeDecisionReviewTask_User" -> "BvaDispatchTask_Organization" [label=1]
-"JudgeAssignTask_User" -> "JudgeDecisionReviewTask_User" [label=28]
 "AttorneyTask_User" -> "JudgeDecisionReviewTask_User" [label=1]
+"JudgeAssignTask_User" -> "JudgeDecisionReviewTask_User" [label=28]
+"JudgeDecisionReviewTask_User" -> "BvaDispatchTask_Organization" [label=1]
 "TimedHoldTask_User" -> "JudgeDecisionReviewTask_User" [label=1]
 }
 ```
 </details>
 
-![RTO.DTO.TVTO.JATU-11092](dot/RTO.DTO.TVTO.JATU.dot.png)
+![JudgeDecisionReviewTask_User](dot/JudgeDecisionReviewTask_User.dot.png)
 
 ## Nextlinks
 

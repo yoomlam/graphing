@@ -11,7 +11,7 @@ rankdir="LR";
 ```
 </details>
 
-![RTO.DTO.ESWTO.SCMTU-40605](dot/RTO.DTO.ESWTO.SCMTU.dot.png)
+![QualityReviewTask_Organization](dot/QualityReviewTask_Organization.dot.png)
 
 ## Nextlinks
 

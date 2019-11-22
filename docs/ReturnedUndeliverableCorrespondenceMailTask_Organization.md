@@ -5,16 +5,15 @@
 ```
 digraph G {
 rankdir="LR";
+"BvaDispatchTask_User" -> "ReturnedUndeliverableCorrespondenceMailTask_Organization" [label=1]
 "ReturnedUndeliverableCorrespondenceMailTask_Organization" -> "ReturnedUndeliverableCorrespondenceMailTask_Organization" [label=2]
 "ReturnedUndeliverableCorrespondenceMailTask_Organization" -> "ReturnedUndeliverableCorrespondenceMailTask_User" [label=1]
-"ReturnedUndeliverableCorrespondenceMailTask_Organization" -> "ReturnedUndeliverableCorrespondenceMailTask_Organization" [label=2]
 "HearingTask_Organization" -> "ReturnedUndeliverableCorrespondenceMailTask_Organization" [label=1]
-"BvaDispatchTask_User" -> "ReturnedUndeliverableCorrespondenceMailTask_Organization" [label=1]
 }
 ```
 </details>
 
-![RTO.DTO.SHTO.HTO.TTO.TTU-24900](dot/RTO.DTO.SHTO.HTO.TTO.TTU.dot.png)
+![ReturnedUndeliverableCorrespondenceMailTask_Organization](dot/ReturnedUndeliverableCorrespondenceMailTask_Organization.dot.png)
 
 ## Nextlinks
 

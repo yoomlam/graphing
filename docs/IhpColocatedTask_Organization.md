@@ -11,7 +11,7 @@ rankdir="LR";
 ```
 </details>
 
-![RTO.TVTO.DTO.ESWTO.JATU.JDRTU.ATU.QRTO.QRTU.JQRTU.BDTO.BDTU.JDRTU.JDRTU-15411](dot/RTO.TVTO.DTO.ESWTO.JATU.JDRTU.ATU.QRTO.QRTU.JQRTU.BDTO.BDTU.JDRTU.JDRTU.dot.png)
+![IhpColocatedTask_Organization](dot/IhpColocatedTask_Organization.dot.png)
 
 ## Nextlinks
 

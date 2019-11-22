@@ -5,21 +5,20 @@
 ```
 digraph G {
 rankdir="LR";
-"TrackVeteranTask_Organization" -> "DistributionTask_Organization" [label=301]
-"TrackVeteranTask_Organization" -> "JudgeAssignTask_User" [label=3]
-"TrackVeteranTask_Organization" -> "TrackVeteranTask_Organization" [label=3]
-"TrackVeteranTask_Organization" -> "InformalHearingPresentationTask_Organization" [label=1]
-"RootTask_Organization" -> "TrackVeteranTask_Organization" [label=301]
-"TrackVeteranTask_Organization" -> "TrackVeteranTask_Organization" [label=3]
-"EvidenceSubmissionWindowTask_Organization" -> "TrackVeteranTask_Organization" [label=2]
-"AttorneyTask_User" -> "TrackVeteranTask_Organization" [label=1]
-"HearingTask_Organization" -> "TrackVeteranTask_Organization" [label=1]
 "DistributionTask_Organization" -> "TrackVeteranTask_Organization" [label=1]
+"EvidenceSubmissionWindowTask_Organization" -> "TrackVeteranTask_Organization" [label=2]
+"TrackVeteranTask_Organization" -> "TrackVeteranTask_Organization" [label=3]
+"RootTask_Organization" -> "TrackVeteranTask_Organization" [label=301]
+"TrackVeteranTask_Organization" -> "InformalHearingPresentationTask_Organization" [label=1]
+"HearingTask_Organization" -> "TrackVeteranTask_Organization" [label=1]
+"TrackVeteranTask_Organization" -> "JudgeAssignTask_User" [label=3]
+"AttorneyTask_User" -> "TrackVeteranTask_Organization" [label=1]
+"TrackVeteranTask_Organization" -> "DistributionTask_Organization" [label=301]
 }
 ```
 </details>
 
-![RTO-42769](dot/RTO.dot.png)
+![TrackVeteranTask_Organization](dot/TrackVeteranTask_Organization.dot.png)
 
 ## Nextlinks
 
