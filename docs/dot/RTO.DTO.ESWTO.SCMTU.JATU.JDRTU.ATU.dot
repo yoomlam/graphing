@@ -1,0 +1,10 @@
+digraph G {
+rankdir="LR";
+"BvaDispatchTask_Organization" -> "BvaDispatchTask_User" [label=22]
+"AttorneyTask_User" -> "BvaDispatchTask_Organization" [label=16]
+"AttorneyRewriteTask_User" -> "BvaDispatchTask_Organization" [label=2]
+"JudgeDecisionReviewTask_User" -> "BvaDispatchTask_Organization" [label=1]
+"InformalHearingPresentationTask_Organization" -> "BvaDispatchTask_Organization" [label=1]
+"JudgeQualityReviewTask_User" -> "BvaDispatchTask_Organization" [label=1]
+"QualityReviewTask_User" -> "BvaDispatchTask_Organization" [label=1]
+}

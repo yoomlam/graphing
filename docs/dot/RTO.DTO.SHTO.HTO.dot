@@ -1,0 +1,10 @@
+digraph G {
+rankdir="LR";
+"InformalHearingPresentationTask_Organization" -> "InformalHearingPresentationTask_User" [label=8]
+"InformalHearingPresentationTask_Organization" -> "JudgeAssignTask_User" [label=7]
+"InformalHearingPresentationTask_Organization" -> "BvaDispatchTask_Organization" [label=1]
+"InformalHearingPresentationTask_Organization" -> "VeteranRecordRequest_Organization" [label=1]
+"DistributionTask_Organization" -> "InformalHearingPresentationTask_Organization" [label=75]
+"EvidenceSubmissionWindowTask_Organization" -> "InformalHearingPresentationTask_Organization" [label=9]
+"TrackVeteranTask_Organization" -> "InformalHearingPresentationTask_Organization" [label=1]
+}

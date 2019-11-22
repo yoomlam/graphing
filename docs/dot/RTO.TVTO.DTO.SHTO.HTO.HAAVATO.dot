@@ -1,0 +1,5 @@
+digraph G {
+rankdir="LR";
+"AttorneyRewriteTask_User" -> "BvaDispatchTask_Organization" [label=2]
+"AttorneyTask_User" -> "AttorneyRewriteTask_User" [label=2]
+}

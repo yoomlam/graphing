@@ -1,0 +1,93 @@
+# EvidenceOrArgumentMailTask_Organization
+
+<details><summary>Links for EvidenceOrArgumentMailTask_Organization</summary>
+
+```
+digraph G {
+rankdir="LR";
+"EvidenceOrArgumentMailTask_Organization" -> "EvidenceOrArgumentMailTask_Organization" [label=1]
+"EvidenceOrArgumentMailTask_Organization" -> "EvidenceOrArgumentMailTask_User" [label=1]
+"DistributionTask_Organization" -> "EvidenceOrArgumentMailTask_Organization" [label=1]
+"EvidenceOrArgumentMailTask_Organization" -> "EvidenceOrArgumentMailTask_Organization" [label=1]
+}
+```
+</details>
+
+![RTO.TVTO.TVTO.DTO.ESWTO-40894](dot/RTO.TVTO.TVTO.DTO.ESWTO.dot.png)
+
+## Nextlinks
+
+   * 1 [EvidenceOrArgumentMailTask_Organization](EvidenceOrArgumentMailTask_Organization.md)
+   * 1 [EvidenceOrArgumentMailTask_User](EvidenceOrArgumentMailTask_User.md)
+
+## Backlinks
+
+   * 1 [DistributionTask_Organization](DistributionTask_Organization.md)
+   * 1 [EvidenceOrArgumentMailTask_Organization](EvidenceOrArgumentMailTask_Organization.md)
+
+## RTO.DTO.EOAMTO.EOAMTO
+
+1 occurrences (example appeals: [10213])
+
+<details><summary>PlantUML for 10213</summary>
+
+```
+@startuml
+object 0.RootTask_Organization #66c2a5
+object 1.DistributionTask_Organization #fc8d62
+object 2.EvidenceOrArgumentMailTask_Organization #ffd92f
+object 3.EvidenceOrArgumentMailTask_Organization #ffd92f
+object 4.EvidenceOrArgumentMailTask_User #ffd92f
+object 5.JudgeAssignTask_User #8da0cb
+object 6.JudgeDecisionReviewTask_User #66c2a5
+object 7.AttorneyTask_User #fc8d62
+object 8.BvaDispatchTask_Organization #e5c494
+object 9.BvaDispatchTask_User #e5c494
+0.RootTask_Organization -- 1.DistributionTask_Organization
+0.RootTask_Organization -- 2.EvidenceOrArgumentMailTask_Organization
+2.EvidenceOrArgumentMailTask_Organization -- 3.EvidenceOrArgumentMailTask_Organization
+3.EvidenceOrArgumentMailTask_Organization -- 4.EvidenceOrArgumentMailTask_User
+0.RootTask_Organization -- 5.JudgeAssignTask_User
+0.RootTask_Organization -- 6.JudgeDecisionReviewTask_User
+6.JudgeDecisionReviewTask_User -- 7.AttorneyTask_User
+0.RootTask_Organization -- 8.BvaDispatchTask_Organization
+8.BvaDispatchTask_Organization -- 9.BvaDispatchTask_User
+@enduml
+```
+</details>
+
+![RTO.DTO.EOAMTO.EOAMTO-10213](uml/RTO.DTO.EOAMTO.EOAMTO-10213.png)
+
+## RTO.DTO.EOAMTO
+
+1 occurrences (example appeals: [10213])
+
+<details><summary>PlantUML for 10213</summary>
+
+```
+@startuml
+object 0.RootTask_Organization #66c2a5
+object 1.DistributionTask_Organization #fc8d62
+object 2.EvidenceOrArgumentMailTask_Organization #ffd92f
+object 3.EvidenceOrArgumentMailTask_Organization #ffd92f
+object 4.EvidenceOrArgumentMailTask_User #ffd92f
+object 5.JudgeAssignTask_User #8da0cb
+object 6.JudgeDecisionReviewTask_User #66c2a5
+object 7.AttorneyTask_User #fc8d62
+object 8.BvaDispatchTask_Organization #e5c494
+object 9.BvaDispatchTask_User #e5c494
+0.RootTask_Organization -- 1.DistributionTask_Organization
+0.RootTask_Organization -- 2.EvidenceOrArgumentMailTask_Organization
+2.EvidenceOrArgumentMailTask_Organization -- 3.EvidenceOrArgumentMailTask_Organization
+3.EvidenceOrArgumentMailTask_Organization -- 4.EvidenceOrArgumentMailTask_User
+0.RootTask_Organization -- 5.JudgeAssignTask_User
+0.RootTask_Organization -- 6.JudgeDecisionReviewTask_User
+6.JudgeDecisionReviewTask_User -- 7.AttorneyTask_User
+0.RootTask_Organization -- 8.BvaDispatchTask_Organization
+8.BvaDispatchTask_Organization -- 9.BvaDispatchTask_User
+@enduml
+```
+</details>
+
+![RTO.DTO.EOAMTO-10213](uml/RTO.DTO.EOAMTO-10213.png)
+

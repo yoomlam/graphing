@@ -1,0 +1,9 @@
+digraph G {
+rankdir="LR";
+"HearingTask_Organization" -> "AssignHearingDispositionTask_Organization" [label=3]
+"HearingTask_Organization" -> "HearingAdminActionVerifyAddressTask_Organization" [label=3]
+"HearingTask_Organization" -> "TrackVeteranTask_Organization" [label=1]
+"HearingTask_Organization" -> "TranslationTask_Organization" [label=1]
+"HearingTask_Organization" -> "ReturnedUndeliverableCorrespondenceMailTask_Organization" [label=1]
+"ScheduleHearingTask_Organization" -> "HearingTask_Organization" [label=128]
+}

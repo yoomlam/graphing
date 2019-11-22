@@ -1,0 +1,5 @@
+digraph G {
+rankdir="LR";
+"ScheduleHearingTask_Organization" -> "HearingTask_Organization" [label=128]
+"DistributionTask_Organization" -> "ScheduleHearingTask_Organization" [label=128]
+}

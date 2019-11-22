@@ -1,0 +1,4 @@
+digraph G {
+rankdir="LR";
+"TranslationTask_Organization" -> "TranslationTask_User" [label=1]
+}
