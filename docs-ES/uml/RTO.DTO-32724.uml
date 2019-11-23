@@ -1,0 +1,15 @@
+@startuml
+object 0.RootTask_Organization #66c2a5
+object 1.DistributionTask_Organization #fc8d62
+object 2.JudgeAssignTask_User #8da0cb
+object 3.JudgeDecisionReviewTask_User #66c2a5
+object 4.AttorneyTask_User #fc8d62
+object 5.BvaDispatchTask_Organization #e5c494
+object 6.BvaDispatchTask_User #e5c494
+0.RootTask_Organization -- 1.DistributionTask_Organization
+0.RootTask_Organization -- 2.JudgeAssignTask_User
+0.RootTask_Organization -- 3.JudgeDecisionReviewTask_User
+3.JudgeDecisionReviewTask_User -- 4.AttorneyTask_User
+0.RootTask_Organization -- 5.BvaDispatchTask_Organization
+5.BvaDispatchTask_Organization -- 6.BvaDispatchTask_User
+@enduml

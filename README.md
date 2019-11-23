@@ -1,8 +1,12 @@
 ## Data-Driven Documentation of Task Trees
 
-Actual task trees were processed and used to generate documentation.
+Actual task trees were processed and used to generate this documentation, which is organized by docket type:
+* [Direct Review docket tasks](docs-DR/tasklist.md)
+* [Evidence Submission docket tasks](docs-ES/tasklist.md)
+* [Hearing docket tasks](docs-H/tasklist.md)
 
-Each task has its own page (i.e., `md` file), see [Task Listing](tasklist.md).
+Each docket above presents a list of relevant tasks.
+Each task has its own page (i.e., `md` file).
 Each task page has the following sections:
 * Tasks Created Before and After
   * Diagram of inlinks and outlinks to the task page. The number labeled on the link represents the number of occurrences where the creation of source task was followed by the creation of the destination task.
@@ -39,5 +43,5 @@ Notes:
   }
   ```
   </details>
-  
+
   ![RTO.DTO.ESWTO](./docs/dot/RTO.DTO.ESWTO.dot.png)

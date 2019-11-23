@@ -1,0 +1,5 @@
+digraph G {
+rankdir="LR";
+"JudgeDispatchReturnTask_User" -> "JudgeDispatchReturnTask_User" [label=1]
+"BvaDispatchTask_User" -> "JudgeDispatchReturnTask_User" [label=1]
+}

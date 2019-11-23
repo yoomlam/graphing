@@ -1,0 +1,5 @@
+digraph G {
+rankdir="LR";
+"HearingTask_Organization" -> "TranslationTask_Organization" [label=1]
+"TranslationTask_Organization" -> "TranslationTask_User" [label=1]
+}

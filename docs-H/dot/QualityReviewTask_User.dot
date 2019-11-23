@@ -1,0 +1,6 @@
+digraph G {
+rankdir="LR";
+"QualityReviewTask_User" -> "JudgeQualityReviewTask_User" [label=2]
+"QualityReviewTask_User" -> "BvaDispatchTask_Organization" [label=3]
+"QualityReviewTask_Organization" -> "QualityReviewTask_User" [label=5]
+}

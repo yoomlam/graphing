@@ -1,0 +1,9 @@
+@startuml
+object 0.RootTask_Organization #66c2a5
+object 1.DistributionTask_Organization #fc8d62
+object 2.ScheduleHearingTask_Organization #a6d854
+object 3.HearingTask_Organization #e78ac3
+0.RootTask_Organization -- 1.DistributionTask_Organization
+3.HearingTask_Organization -- 2.ScheduleHearingTask_Organization
+1.DistributionTask_Organization -- 3.HearingTask_Organization
+@enduml

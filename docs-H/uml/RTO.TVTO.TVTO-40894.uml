@@ -1,0 +1,11 @@
+@startuml
+object 0.RootTask_Organization #66c2a5
+object 1.TrackVeteranTask_Organization #8da0cb
+object 2.TrackVeteranTask_Organization #8da0cb
+object 3.DistributionTask_Organization #fc8d62
+object 4.EvidenceSubmissionWindowTask_Organization #b3b3b3
+0.RootTask_Organization -- 1.TrackVeteranTask_Organization
+0.RootTask_Organization -- 2.TrackVeteranTask_Organization
+0.RootTask_Organization -- 3.DistributionTask_Organization
+3.DistributionTask_Organization -- 4.EvidenceSubmissionWindowTask_Organization
+@enduml

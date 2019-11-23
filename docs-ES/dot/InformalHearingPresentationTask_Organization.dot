@@ -1,0 +1,6 @@
+digraph G {
+rankdir="LR";
+"InformalHearingPresentationTask_Organization" -> "InformalHearingPresentationTask_User" [label=3]
+"InformalHearingPresentationTask_Organization" -> "JudgeAssignTask_User" [label=1]
+"EvidenceSubmissionWindowTask_Organization" -> "InformalHearingPresentationTask_Organization" [label=9]
+}

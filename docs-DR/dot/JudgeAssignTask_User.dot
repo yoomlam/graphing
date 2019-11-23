@@ -1,0 +1,11 @@
+digraph G {
+rankdir="LR";
+"TrackVeteranTask_Organization" -> "JudgeAssignTask_User" [label=1]
+"InformalHearingPresentationTask_Organization" -> "JudgeAssignTask_User" [label=6]
+"DistributionTask_Organization" -> "JudgeAssignTask_User" [label=16]
+"InformalHearingPresentationTask_User" -> "JudgeAssignTask_User" [label=4]
+"EvidenceOrArgumentMailTask_User" -> "JudgeAssignTask_User" [label=1]
+"SpecialCaseMovementTask_User" -> "JudgeAssignTask_User" [label=1]
+"JudgeAssignTask_User" -> "IhpColocatedTask_Organization" [label=1]
+"JudgeAssignTask_User" -> "JudgeDecisionReviewTask_User" [label=21]
+}

@@ -1,0 +1,6 @@
+digraph G {
+rankdir="LR";
+"JudgeAssignTask_User" -> "JudgeDecisionReviewTask_User" [label=21]
+"JudgeDecisionReviewTask_User" -> "AttorneyTask_User" [label=22]
+"TimedHoldTask_User" -> "JudgeDecisionReviewTask_User" [label=1]
+}
