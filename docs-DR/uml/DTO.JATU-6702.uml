@@ -1,17 +1,41 @@
 @startuml
-object 0.RootTask_Organization #66c2a5
-object 1.TrackVeteranTask_Organization #8da0cb
-object 2.DistributionTask_Organization #fc8d62
-object 3.JudgeAssignTask_User #8da0cb
-object 4.JudgeDecisionReviewTask_User #66c2a5
-object 5.AttorneyTask_User #fc8d62
-object 6.OtherColocatedTask_Organization #fc8d62
-object 7.OtherColocatedTask_User #fc8d62
-0.RootTask_Organization -- 1.TrackVeteranTask_Organization
-0.RootTask_Organization -- 2.DistributionTask_Organization
-0.RootTask_Organization -- 3.JudgeAssignTask_User
-0.RootTask_Organization -- 4.JudgeDecisionReviewTask_User
-4.JudgeDecisionReviewTask_User -- 5.AttorneyTask_User
-5.AttorneyTask_User -- 6.OtherColocatedTask_Organization
-6.OtherColocatedTask_Organization -- 7.OtherColocatedTask_User
+skinparam {
+  ObjectBorderColor #555
+  ObjectBorderThickness 0
+  ObjectFontStyle bold
+  ObjectFontSize 14
+  ObjectAttributeFontColor #333
+  ObjectAttributeFontSize 12
+}
+  object 0.RootTask #66c2a5 {
+Organization
+}
+  object 1.TrackVeteranTask #8da0cb {
+Organization
+}
+  object 2.DistributionTask #fc8d62 {
+Organization
+}
+  object 3.JudgeAssignTask #8da0cb {
+User  <back:white>    </back>
+}
+  object 4.JudgeDecisionReviewTask #66c2a5 {
+User
+}
+  object 5.AttorneyTask #fc8d62 {
+User
+}
+  object 6.OtherColocatedTask #fc8d62 {
+Organization
+}
+  object 7.OtherColocatedTask #fc8d62 {
+User
+}
+0.RootTask -- 1.TrackVeteranTask
+0.RootTask -- 2.DistributionTask
+0.RootTask -- 3.JudgeAssignTask
+0.RootTask -- 4.JudgeDecisionReviewTask
+4.JudgeDecisionReviewTask -- 5.AttorneyTask
+5.AttorneyTask -- 6.OtherColocatedTask
+6.OtherColocatedTask -- 7.OtherColocatedTask
 @enduml

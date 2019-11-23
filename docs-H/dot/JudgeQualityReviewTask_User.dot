@@ -1,5 +1,0 @@
-digraph G {
-rankdir="LR";
-"QualityReviewTask_User" -> "JudgeQualityReviewTask_User" [label=2]
-"JudgeQualityReviewTask_User" -> "BvaDispatchTask_Organization" [label=2]
-}

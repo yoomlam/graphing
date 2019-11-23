@@ -35,19 +35,41 @@ rankdir="LR";
 
 ```
 @startuml
-object 0.RootTask_Organization #66c2a5
-object 1.DistributionTask_Organization #fc8d62
-object 2.ScheduleHearingTask_Organization #a6d854
-object 3.HearingTask_Organization #e78ac3
-object 4.TranslationTask_Organization #e5c494
-object 5.HearingAdminActionVerifyAddressTask_Organization #e78ac3
-object 6.TranslationTask_User #e5c494
-0.RootTask_Organization -- 1.DistributionTask_Organization
-3.HearingTask_Organization -- 2.ScheduleHearingTask_Organization
-1.DistributionTask_Organization -- 3.HearingTask_Organization
-1.DistributionTask_Organization -- 4.TranslationTask_Organization
-2.ScheduleHearingTask_Organization -- 5.HearingAdminActionVerifyAddressTask_Organization
-4.TranslationTask_Organization -- 6.TranslationTask_User
+skinparam {
+  ObjectBorderColor #555
+  ObjectBorderThickness 0
+  ObjectFontStyle bold
+  ObjectFontSize 14
+  ObjectAttributeFontColor #333
+  ObjectAttributeFontSize 12
+}
+  object 0.RootTask #66c2a5 {
+Organization
+}
+  object 1.DistributionTask #fc8d62 {
+Organization
+}
+  object 2.ScheduleHearingTask #a6d854 {
+Organization
+}
+  object 3.HearingTask #e78ac3 {
+Organization
+}
+  object 4.TranslationTask #e5c494 {
+Organization  <back:white>    </back>
+}
+  object 5.HearingAdminActionVerifyAddressTask #e78ac3 {
+Organization
+}
+  object 6.TranslationTask #e5c494 {
+User
+}
+0.RootTask -- 1.DistributionTask
+3.HearingTask -- 2.ScheduleHearingTask
+1.DistributionTask -- 3.HearingTask
+1.DistributionTask -- 4.TranslationTask
+2.ScheduleHearingTask -- 5.HearingAdminActionVerifyAddressTask
+4.TranslationTask -- 6.TranslationTask
 @enduml
 ```
 </details>

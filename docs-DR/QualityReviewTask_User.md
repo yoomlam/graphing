@@ -35,35 +35,73 @@ rankdir="LR";
 
 ```
 @startuml
-object 0.RootTask_Organization #66c2a5
-object 1.TrackVeteranTask_Organization #8da0cb
-object 2.DistributionTask_Organization #fc8d62
-object 3.InformalHearingPresentationTask_Organization #ffd92f
-object 4.InformalHearingPresentationTask_User #ffd92f
-object 5.JudgeAssignTask_User #8da0cb
-object 6.IhpColocatedTask_Organization #a6d854
-object 7.IhpColocatedTask_User #a6d854
-object 8.TimedHoldTask_User #e78ac3
-object 9.JudgeDecisionReviewTask_User #66c2a5
-object 10.AttorneyTask_User #fc8d62
-object 11.QualityReviewTask_Organization #66c2a5
-object 12.QualityReviewTask_User #66c2a5
-object 13.BvaDispatchTask_Organization #e5c494
-object 14.BvaDispatchTask_User #e5c494
-0.RootTask_Organization -- 1.TrackVeteranTask_Organization
-0.RootTask_Organization -- 2.DistributionTask_Organization
-2.DistributionTask_Organization -- 3.InformalHearingPresentationTask_Organization
-3.InformalHearingPresentationTask_Organization -- 4.InformalHearingPresentationTask_User
-0.RootTask_Organization -- 5.JudgeAssignTask_User
-5.JudgeAssignTask_User -- 6.IhpColocatedTask_Organization
-6.IhpColocatedTask_Organization -- 7.IhpColocatedTask_User
-7.IhpColocatedTask_User -- 8.TimedHoldTask_User
-0.RootTask_Organization -- 9.JudgeDecisionReviewTask_User
-9.JudgeDecisionReviewTask_User -- 10.AttorneyTask_User
-0.RootTask_Organization -- 11.QualityReviewTask_Organization
-11.QualityReviewTask_Organization -- 12.QualityReviewTask_User
-0.RootTask_Organization -- 13.BvaDispatchTask_Organization
-13.BvaDispatchTask_Organization -- 14.BvaDispatchTask_User
+skinparam {
+  ObjectBorderColor #555
+  ObjectBorderThickness 0
+  ObjectFontStyle bold
+  ObjectFontSize 14
+  ObjectAttributeFontColor #333
+  ObjectAttributeFontSize 12
+}
+  object 0.RootTask #66c2a5 {
+Organization
+}
+  object 1.TrackVeteranTask #8da0cb {
+Organization
+}
+  object 2.DistributionTask #fc8d62 {
+Organization
+}
+  object 3.InformalHearingPresentationTask #ffd92f {
+Organization
+}
+  object 4.InformalHearingPresentationTask #ffd92f {
+User
+}
+  object 5.JudgeAssignTask #8da0cb {
+User
+}
+  object 6.IhpColocatedTask #a6d854 {
+Organization
+}
+  object 7.IhpColocatedTask #a6d854 {
+User
+}
+  object 8.TimedHoldTask #e78ac3 {
+User
+}
+  object 9.JudgeDecisionReviewTask #66c2a5 {
+User
+}
+  object 10.AttorneyTask #fc8d62 {
+User
+}
+  object 11.QualityReviewTask #66c2a5 {
+Organization
+}
+  object 12.QualityReviewTask #66c2a5 {
+User  <back:white>    </back>
+}
+  object 13.BvaDispatchTask #e5c494 {
+Organization
+}
+  object 14.BvaDispatchTask #e5c494 {
+User
+}
+0.RootTask -- 1.TrackVeteranTask
+0.RootTask -- 2.DistributionTask
+2.DistributionTask -- 3.InformalHearingPresentationTask
+3.InformalHearingPresentationTask -- 4.InformalHearingPresentationTask
+0.RootTask -- 5.JudgeAssignTask
+5.JudgeAssignTask -- 6.IhpColocatedTask
+6.IhpColocatedTask -- 7.IhpColocatedTask
+7.IhpColocatedTask -- 8.TimedHoldTask
+0.RootTask -- 9.JudgeDecisionReviewTask
+9.JudgeDecisionReviewTask -- 10.AttorneyTask
+0.RootTask -- 11.QualityReviewTask
+11.QualityReviewTask -- 12.QualityReviewTask
+0.RootTask -- 13.BvaDispatchTask
+13.BvaDispatchTask -- 14.BvaDispatchTask
 @enduml
 ```
 </details>

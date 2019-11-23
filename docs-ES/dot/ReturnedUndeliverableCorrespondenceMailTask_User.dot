@@ -1,5 +1,0 @@
-digraph G {
-rankdir="LR";
-"ReturnedUndeliverableCorrespondenceMailTask_User" -> "Task_Organization" [label=3]
-"ReturnedUndeliverableCorrespondenceMailTask_Organization" -> "ReturnedUndeliverableCorrespondenceMailTask_User" [label=3]
-}

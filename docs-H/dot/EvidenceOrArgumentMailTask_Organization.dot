@@ -1,6 +1,0 @@
-digraph G {
-rankdir="LR";
-"EvidenceOrArgumentMailTask_Organization" -> "EvidenceOrArgumentMailTask_Organization" [label=3]
-"EvidenceOrArgumentMailTask_Organization" -> "EvidenceOrArgumentMailTask_User" [label=3]
-"DistributionTask_Organization" -> "EvidenceOrArgumentMailTask_Organization" [label=3]
-}

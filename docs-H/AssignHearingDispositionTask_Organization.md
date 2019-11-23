@@ -33,17 +33,37 @@ rankdir="LR";
 
 ```
 @startuml
-object 0.RootTask_Organization #66c2a5
-object 1.TrackVeteranTask_Organization #8da0cb
-object 2.DistributionTask_Organization #fc8d62
-object 3.ScheduleHearingTask_Organization #a6d854
-object 4.HearingTask_Organization #e78ac3
-object 5.AssignHearingDispositionTask_Organization #a6d854
-0.RootTask_Organization -- 1.TrackVeteranTask_Organization
-0.RootTask_Organization -- 2.DistributionTask_Organization
-4.HearingTask_Organization -- 3.ScheduleHearingTask_Organization
-2.DistributionTask_Organization -- 4.HearingTask_Organization
-4.HearingTask_Organization -- 5.AssignHearingDispositionTask_Organization
+skinparam {
+  ObjectBorderColor #555
+  ObjectBorderThickness 0
+  ObjectFontStyle bold
+  ObjectFontSize 14
+  ObjectAttributeFontColor #333
+  ObjectAttributeFontSize 12
+}
+  object 0.RootTask #66c2a5 {
+Organization
+}
+  object 1.TrackVeteranTask #8da0cb {
+Organization
+}
+  object 2.DistributionTask #fc8d62 {
+Organization
+}
+  object 3.ScheduleHearingTask #a6d854 {
+Organization
+}
+  object 4.HearingTask #e78ac3 {
+Organization
+}
+  object 5.AssignHearingDispositionTask #a6d854 {
+Organization  <back:white>    </back>
+}
+0.RootTask -- 1.TrackVeteranTask
+0.RootTask -- 2.DistributionTask
+4.HearingTask -- 3.ScheduleHearingTask
+2.DistributionTask -- 4.HearingTask
+4.HearingTask -- 5.AssignHearingDispositionTask
 @enduml
 ```
 </details>

@@ -1,8 +1,0 @@
-digraph G {
-rankdir="LR";
-"JudgeDecisionReviewTask_User" -> "AttorneyTask_User" [label=80]
-"JudgeAssignTask_User" -> "JudgeDecisionReviewTask_User" [label=77]
-"AttorneyTask_User" -> "JudgeDecisionReviewTask_User" [label=2]
-"JudgeDecisionReviewTask_User" -> "BvaDispatchTask_Organization" [label=2]
-"TimedHoldTask_User" -> "JudgeDecisionReviewTask_User" [label=3]
-}

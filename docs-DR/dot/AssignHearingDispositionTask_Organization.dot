@@ -1,4 +1,0 @@
-digraph G {
-rankdir="LR";
-"HearingTask_Organization" -> "AssignHearingDispositionTask_Organization" [label=3]
-}

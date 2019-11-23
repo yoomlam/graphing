@@ -1,27 +1,61 @@
 @startuml
-object 0.RootTask_Organization #66c2a5
-object 1.TrackVeteranTask_Organization #8da0cb
-object 2.DistributionTask_Organization #fc8d62
-object 3.InformalHearingPresentationTask_Organization #ffd92f
-object 4.JudgeAssignTask_User #8da0cb
-object 5.JudgeDecisionReviewTask_User #66c2a5
-object 6.AttorneyTask_User #fc8d62
-object 7.BvaDispatchTask_Organization #e5c494
-object 8.BvaDispatchTask_User #e5c494
-object 9.ReturnedUndeliverableCorrespondenceMailTask_Organization #e78ac3
-object 10.ReturnedUndeliverableCorrespondenceMailTask_Organization #e78ac3
-object 11.ReturnedUndeliverableCorrespondenceMailTask_User #e78ac3
-object 12.Task_Organization #e78ac3
-0.RootTask_Organization -- 1.TrackVeteranTask_Organization
-0.RootTask_Organization -- 2.DistributionTask_Organization
-2.DistributionTask_Organization -- 3.InformalHearingPresentationTask_Organization
-0.RootTask_Organization -- 4.JudgeAssignTask_User
-0.RootTask_Organization -- 5.JudgeDecisionReviewTask_User
-5.JudgeDecisionReviewTask_User -- 6.AttorneyTask_User
-0.RootTask_Organization -- 7.BvaDispatchTask_Organization
-7.BvaDispatchTask_Organization -- 8.BvaDispatchTask_User
-0.RootTask_Organization -- 9.ReturnedUndeliverableCorrespondenceMailTask_Organization
-9.ReturnedUndeliverableCorrespondenceMailTask_Organization -- 10.ReturnedUndeliverableCorrespondenceMailTask_Organization
-10.ReturnedUndeliverableCorrespondenceMailTask_Organization -- 11.ReturnedUndeliverableCorrespondenceMailTask_User
-11.ReturnedUndeliverableCorrespondenceMailTask_User -- 12.Task_Organization
+skinparam {
+  ObjectBorderColor #555
+  ObjectBorderThickness 0
+  ObjectFontStyle bold
+  ObjectFontSize 14
+  ObjectAttributeFontColor #333
+  ObjectAttributeFontSize 12
+}
+  object 0.RootTask #66c2a5 {
+Organization
+}
+  object 1.TrackVeteranTask #8da0cb {
+Organization
+}
+  object 2.DistributionTask #fc8d62 {
+Organization
+}
+  object 3.InformalHearingPresentationTask #ffd92f {
+Organization
+}
+  object 4.JudgeAssignTask #8da0cb {
+User
+}
+  object 5.JudgeDecisionReviewTask #66c2a5 {
+User
+}
+  object 6.AttorneyTask #fc8d62 {
+User
+}
+  object 7.BvaDispatchTask #e5c494 {
+Organization
+}
+  object 8.BvaDispatchTask #e5c494 {
+User
+}
+  object 9.ReturnedUndeliverableCorrespondenceMailTask #e78ac3 {
+Organization  <back:white>    </back>
+}
+  object 10.ReturnedUndeliverableCorrespondenceMailTask #e78ac3 {
+Organization  <back:white>    </back>
+}
+  object 11.ReturnedUndeliverableCorrespondenceMailTask #e78ac3 {
+User
+}
+  object 12.Task #e78ac3 {
+Organization
+}
+0.RootTask -- 1.TrackVeteranTask
+0.RootTask -- 2.DistributionTask
+2.DistributionTask -- 3.InformalHearingPresentationTask
+0.RootTask -- 4.JudgeAssignTask
+0.RootTask -- 5.JudgeDecisionReviewTask
+5.JudgeDecisionReviewTask -- 6.AttorneyTask
+0.RootTask -- 7.BvaDispatchTask
+7.BvaDispatchTask -- 8.BvaDispatchTask
+0.RootTask -- 9.ReturnedUndeliverableCorrespondenceMailTask
+9.ReturnedUndeliverableCorrespondenceMailTask -- 10.ReturnedUndeliverableCorrespondenceMailTask
+10.ReturnedUndeliverableCorrespondenceMailTask -- 11.ReturnedUndeliverableCorrespondenceMailTask
+11.ReturnedUndeliverableCorrespondenceMailTask -- 12.Task
 @enduml

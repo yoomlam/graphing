@@ -1,4 +1,0 @@
-digraph G {
-rankdir="LR";
-"InformalHearingPresentationTask_Organization" -> "VeteranRecordRequest_Organization" [label=3]
-}

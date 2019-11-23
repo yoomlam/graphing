@@ -1,5 +1,0 @@
-digraph G {
-rankdir="LR";
-"InformalHearingPresentationTask_Organization" -> "InformalHearingPresentationTask_User" [label=21]
-"InformalHearingPresentationTask_User" -> "JudgeAssignTask_User" [label=16]
-}

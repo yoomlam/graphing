@@ -1,6 +1,0 @@
-digraph G {
-rankdir="LR";
-"DistributionTask_Organization" -> "SpecialCaseMovementTask_User" [label=3]
-"SpecialCaseMovementTask_User" -> "JudgeAssignTask_User" [label=5]
-"EvidenceSubmissionWindowTask_Organization" -> "SpecialCaseMovementTask_User" [label=2]
-}
