@@ -2,6 +2,8 @@
 
 # JudgeAssignTask_User
 
+[JudgeAssignTask_User description](../descr/JudgeAssignTask_User.md)
+
 ## Tasks Created Before and After
 
 <details><summary>Tasks created before and after JudgeAssignTask_User</summary>
@@ -38,6 +40,8 @@ rankdir="LR";
 ## Task Creation Sequences
 
 ### RTO.DTO.ESWTO.TVTO.JATU
+
+[RTO.DTO.ESWTO.TVTO.JATU description](../descr/RTO.DTO.ESWTO.TVTO.JATU.md)
 
 2 occurrences (example appeal IDs: [15152, 17948])
 
@@ -99,6 +103,8 @@ User
 ![RTO.DTO.ESWTO.TVTO.JATU-15152](uml/RTO.DTO.ESWTO.TVTO.JATU-15152.png)
 
 ### RTO.TVTO.DTO.ESWTO.IHPTO.IHPTU.JATU
+
+[RTO.TVTO.DTO.ESWTO.IHPTO.IHPTU.JATU description](../descr/RTO.TVTO.DTO.ESWTO.IHPTO.IHPTU.JATU.md)
 
 2 occurrences (example appeal IDs: [15370, 41412])
 
@@ -165,6 +171,8 @@ User
 
 ### RTO.TVTO.DTO.ESWTO.JATU
 
+[RTO.TVTO.DTO.ESWTO.JATU description](../descr/RTO.TVTO.DTO.ESWTO.JATU.md)
+
 2 occurrences (example appeal IDs: [15411, 40893])
 
 <details><summary>Task Tree for appeal with ID 15411</summary>
@@ -200,13 +208,13 @@ User
   object 6.AttorneyTask #fc8d62 {
 User
 }
-  object 7.QualityReviewTask #66c2a5 {
+  object 7.QualityReviewTask #fc8d62 {
 Organization
 }
-  object 8.QualityReviewTask #66c2a5 {
+  object 8.QualityReviewTask #fc8d62 {
 User
 }
-  object 9.JudgeQualityReviewTask #8da0cb {
+  object 9.JudgeQualityReviewTask #ffd92f {
 User
 }
   object 10.BvaDispatchTask #e5c494 {
@@ -245,6 +253,8 @@ User
 ![RTO.TVTO.DTO.ESWTO.JATU-15411](uml/RTO.TVTO.DTO.ESWTO.JATU-15411.png)
 
 ### RTO.TVTO.DTO.ESWTO.IHPTO.JATU
+
+[RTO.TVTO.DTO.ESWTO.IHPTO.JATU description](../descr/RTO.TVTO.DTO.ESWTO.IHPTO.JATU.md)
 
 1 occurrences (example appeal IDs: [11522])
 
@@ -311,6 +321,8 @@ User
 
 ### RTO.DTO.ESWTO.SCMTU.JATU
 
+[RTO.DTO.ESWTO.SCMTU.JATU description](../descr/RTO.DTO.ESWTO.SCMTU.JATU.md)
+
 1 occurrences (example appeal IDs: [40605])
 
 <details><summary>Task Tree for appeal with ID 40605</summary>
@@ -334,7 +346,7 @@ Organization
   object 2.EvidenceSubmissionWindowTask #b3b3b3 {
 Organization
 }
-  object 3.SpecialCaseMovementTask #a6d854 {
+  object 3.SpecialCaseMovementTask #66c2a5 {
 User
 }
   object 4.JudgeAssignTask #8da0cb {

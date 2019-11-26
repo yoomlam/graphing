@@ -2,6 +2,8 @@
 
 # EvidenceSubmissionWindowTask_Organization
 
+[EvidenceSubmissionWindowTask_Organization description](../descr/EvidenceSubmissionWindowTask_Organization.md)
+
 ## Tasks Created Before and After
 
 <details><summary>Tasks created before and after EvidenceSubmissionWindowTask_Organization</summary>
@@ -34,6 +36,8 @@ rankdir="LR";
 ## Task Creation Sequences
 
 ### RTO.TVTO.DTO.ESWTO
+
+[RTO.TVTO.DTO.ESWTO description](../descr/RTO.TVTO.DTO.ESWTO.md)
 
 63 occurrences (example appeal IDs: [40915, 42334, 41269, 42634, 40596])
 
@@ -71,6 +75,8 @@ Organization  <back:white>    </back>
 ![RTO.TVTO.DTO.ESWTO-40915](uml/RTO.TVTO.DTO.ESWTO-40915.png)
 
 ### RTO.DTO.ESWTO
+
+[RTO.DTO.ESWTO description](../descr/RTO.DTO.ESWTO.md)
 
 37 occurrences (example appeal IDs: [15152, 42078, 39814, 42497, 40530])
 
@@ -132,6 +138,8 @@ User
 ![RTO.DTO.ESWTO-15152](uml/RTO.DTO.ESWTO-15152.png)
 
 ### RTO.TVTO.TVTO.DTO.ESWTO
+
+[RTO.TVTO.TVTO.DTO.ESWTO description](../descr/RTO.TVTO.TVTO.DTO.ESWTO.md)
 
 3 occurrences (example appeal IDs: [40894, 42805, 42609])
 

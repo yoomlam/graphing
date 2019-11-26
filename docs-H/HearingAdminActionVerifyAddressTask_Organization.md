@@ -2,6 +2,8 @@
 
 # HearingAdminActionVerifyAddressTask_Organization
 
+[HearingAdminActionVerifyAddressTask_Organization description](../descr/HearingAdminActionVerifyAddressTask_Organization.md)
+
 ## Tasks Created Before and After
 
 <details><summary>Tasks created before and after HearingAdminActionVerifyAddressTask_Organization</summary>
@@ -26,6 +28,8 @@ rankdir="LR";
 ## Task Creation Sequences
 
 ### RTO.TVTO.DTO.SHTO.HTO.HAAVATO
+
+[RTO.TVTO.DTO.SHTO.HTO.HAAVATO description](../descr/RTO.TVTO.DTO.SHTO.HTO.HAAVATO.md)
 
 3 occurrences (example appeal IDs: [42837, 42103, 42843])
 

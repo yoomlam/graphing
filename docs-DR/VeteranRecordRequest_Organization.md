@@ -2,6 +2,8 @@
 
 # VeteranRecordRequest_Organization
 
+[VeteranRecordRequest_Organization description](../descr/VeteranRecordRequest_Organization.md)
+
 ## Tasks Created Before and After
 
 <details><summary>Tasks created before and after VeteranRecordRequest_Organization</summary>
@@ -26,6 +28,8 @@ rankdir="LR";
 ## Task Creation Sequences
 
 ### RTO.TVTO.DTO.IHPTO.VRRO
+
+[RTO.TVTO.DTO.IHPTO.VRRO description](../descr/RTO.TVTO.DTO.IHPTO.VRRO.md)
 
 1 occurrences (example appeal IDs: [42651])
 

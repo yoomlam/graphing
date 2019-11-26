@@ -2,6 +2,8 @@
 
 # Task_Organization
 
+[Task_Organization description](../descr/Task_Organization.md)
+
 ## Tasks Created Before and After
 
 <details><summary>Tasks created before and after Task_Organization</summary>
@@ -26,6 +28,8 @@ rankdir="LR";
 ## Task Creation Sequences
 
 ### RTO.TVTO.DTO.IHPTO.JATU.JDRTU.ATU.BDTO.BDTU.RUCMTO.RUCMTO.RUCMTU.TO
+
+[RTO.TVTO.DTO.IHPTO.JATU.JDRTU.ATU.BDTO.BDTU.RUCMTO.RUCMTO.RUCMTU.TO description](../descr/RTO.TVTO.DTO.IHPTO.JATU.JDRTU.ATU.BDTO.BDTU.RUCMTO.RUCMTO.RUCMTU.TO.md)
 
 1 occurrences (example appeal IDs: [29665])
 
@@ -68,16 +72,16 @@ Organization
   object 8.BvaDispatchTask #e5c494 {
 User
 }
-  object 9.ReturnedUndeliverableCorrespondenceMailTask #e78ac3 {
+  object 9.ReturnedUndeliverableCorrespondenceMailTask #ffd92f {
 Organization
 }
-  object 10.ReturnedUndeliverableCorrespondenceMailTask #e78ac3 {
+  object 10.ReturnedUndeliverableCorrespondenceMailTask #ffd92f {
 Organization
 }
-  object 11.ReturnedUndeliverableCorrespondenceMailTask #e78ac3 {
+  object 11.ReturnedUndeliverableCorrespondenceMailTask #ffd92f {
 User
 }
-  object 12.Task #e78ac3 {
+  object 12.Task #a6d854 {
 Organization  <back:white>    </back>
 }
 0.RootTask -- 1.TrackVeteranTask

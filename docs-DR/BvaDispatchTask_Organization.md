@@ -2,6 +2,8 @@
 
 # BvaDispatchTask_Organization
 
+[BvaDispatchTask_Organization description](../descr/BvaDispatchTask_Organization.md)
+
 ## Tasks Created Before and After
 
 <details><summary>Tasks created before and after BvaDispatchTask_Organization</summary>
@@ -32,6 +34,8 @@ rankdir="LR";
 ## Task Creation Sequences
 
 ### RTO.TVTO.DTO.IHPTO.IHPTU.JATU.JDRTU.ATU.BDTO
+
+[RTO.TVTO.DTO.IHPTO.IHPTU.JATU.JDRTU.ATU.BDTO description](../descr/RTO.TVTO.DTO.IHPTO.IHPTU.JATU.JDRTU.ATU.BDTO.md)
 
 4 occurrences (example appeal IDs: [30234, 35142, 5529, 34472])
 
@@ -94,6 +98,8 @@ User
 
 ### RTO.DTO.JATU.JDRTU.ATU.BDTO
 
+[RTO.DTO.JATU.JDRTU.ATU.BDTO description](../descr/RTO.DTO.JATU.JDRTU.ATU.BDTO.md)
+
 3 occurrences (example appeal IDs: [32724, 38039, 40617])
 
 <details><summary>Task Tree for appeal with ID 32724</summary>
@@ -142,6 +148,8 @@ User
 ![RTO.DTO.JATU.JDRTU.ATU.BDTO-32724](uml/RTO.DTO.JATU.JDRTU.ATU.BDTO-32724.png)
 
 ### RTO.TVTO.DTO.IHPTO.JATU.JDRTU.ATU.BDTO
+
+[RTO.TVTO.DTO.IHPTO.JATU.JDRTU.ATU.BDTO description](../descr/RTO.TVTO.DTO.IHPTO.JATU.JDRTU.ATU.BDTO.md)
 
 3 occurrences (example appeal IDs: [34538, 10197, 29665])
 
@@ -208,6 +216,8 @@ User
 
 ### RTO.TVTO.DTO.JATU.JDRTU.ATU.BDTO
 
+[RTO.TVTO.DTO.JATU.JDRTU.ATU.BDTO description](../descr/RTO.TVTO.DTO.JATU.JDRTU.ATU.BDTO.md)
+
 3 occurrences (example appeal IDs: [33346, 41369, 37901])
 
 <details><summary>Task Tree for appeal with ID 33346</summary>
@@ -261,6 +271,8 @@ User
 
 ### RTO.TVTO.DTO.IHPTO.JATU.ICTO.ICTU.THTU.JDRTU.ATU.QRTO.QRTU.BDTO
 
+[RTO.TVTO.DTO.IHPTO.JATU.ICTO.ICTU.THTU.JDRTU.ATU.QRTO.QRTU.BDTO description](../descr/RTO.TVTO.DTO.IHPTO.JATU.ICTO.ICTU.THTU.JDRTU.ATU.QRTO.QRTU.BDTO.md)
+
 1 occurrences (example appeal IDs: [7729])
 
 <details><summary>Task Tree for appeal with ID 7729</summary>
@@ -293,10 +305,10 @@ User
   object 5.JudgeAssignTask #8da0cb {
 User
 }
-  object 6.IhpColocatedTask #a6d854 {
+  object 6.IhpColocatedTask #ffd92f {
 Organization
 }
-  object 7.IhpColocatedTask #a6d854 {
+  object 7.IhpColocatedTask #ffd92f {
 User
 }
   object 8.TimedHoldTask #e78ac3 {
@@ -308,10 +320,10 @@ User
   object 10.AttorneyTask #fc8d62 {
 User
 }
-  object 11.QualityReviewTask #66c2a5 {
+  object 11.QualityReviewTask #fc8d62 {
 Organization
 }
-  object 12.QualityReviewTask #66c2a5 {
+  object 12.QualityReviewTask #fc8d62 {
 User
 }
   object 13.BvaDispatchTask #e5c494 {
@@ -341,6 +353,8 @@ User
 ![RTO.TVTO.DTO.IHPTO.JATU.ICTO.ICTU.THTU.JDRTU.ATU.QRTO.QRTU.BDTO-7729](uml/RTO.TVTO.DTO.IHPTO.JATU.ICTO.ICTU.THTU.JDRTU.ATU.QRTO.QRTU.BDTO-7729.png)
 
 ### RTO.DTO.EOAMTO.EOAMTO.EOAMTU.JATU.JDRTU.ATU.BDTO
+
+[RTO.DTO.EOAMTO.EOAMTO.EOAMTU.JATU.JDRTU.ATU.BDTO description](../descr/RTO.DTO.EOAMTO.EOAMTO.EOAMTU.JATU.JDRTU.ATU.BDTO.md)
 
 1 occurrences (example appeal IDs: [10213])
 
@@ -402,6 +416,8 @@ User
 ![RTO.DTO.EOAMTO.EOAMTO.EOAMTU.JATU.JDRTU.ATU.BDTO-10213](uml/RTO.DTO.EOAMTO.EOAMTO.EOAMTU.JATU.JDRTU.ATU.BDTO-10213.png)
 
 ### RTO.DTO.JATU.JDRTU.ATU.TVTO.IHPTO.BDTO
+
+[RTO.DTO.JATU.JDRTU.ATU.TVTO.IHPTO.BDTO description](../descr/RTO.DTO.JATU.JDRTU.ATU.TVTO.IHPTO.BDTO.md)
 
 1 occurrences (example appeal IDs: [3875])
 

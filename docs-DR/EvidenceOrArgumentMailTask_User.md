@@ -2,6 +2,8 @@
 
 # EvidenceOrArgumentMailTask_User
 
+[EvidenceOrArgumentMailTask_User description](../descr/EvidenceOrArgumentMailTask_User.md)
+
 ## Tasks Created Before and After
 
 <details><summary>Tasks created before and after EvidenceOrArgumentMailTask_User</summary>
@@ -28,6 +30,8 @@ rankdir="LR";
 ## Task Creation Sequences
 
 ### RTO.DTO.EOAMTO.EOAMTO.EOAMTU
+
+[RTO.DTO.EOAMTO.EOAMTO.EOAMTU description](../descr/RTO.DTO.EOAMTO.EOAMTO.EOAMTU.md)
 
 1 occurrences (example appeal IDs: [10213])
 

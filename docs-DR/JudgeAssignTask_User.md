@@ -2,6 +2,8 @@
 
 # JudgeAssignTask_User
 
+[JudgeAssignTask_User description](../descr/JudgeAssignTask_User.md)
+
 ## Tasks Created Before and After
 
 <details><summary>Tasks created before and after JudgeAssignTask_User</summary>
@@ -40,6 +42,8 @@ rankdir="LR";
 ## Task Creation Sequences
 
 ### RTO.DTO.JATU
+
+[RTO.DTO.JATU description](../descr/RTO.DTO.JATU.md)
 
 8 occurrences (example appeal IDs: [32724, 38039, 40828, 3875, 40611])
 
@@ -90,6 +94,8 @@ User
 
 ### RTO.TVTO.DTO.JATU
 
+[RTO.TVTO.DTO.JATU description](../descr/RTO.TVTO.DTO.JATU.md)
+
 6 occurrences (example appeal IDs: [40595, 33346, 41369, 37901, 40892])
 
 <details><summary>Task Tree for appeal with ID 40595</summary>
@@ -134,6 +140,8 @@ User
 ![RTO.TVTO.DTO.JATU-40595](uml/RTO.TVTO.DTO.JATU-40595.png)
 
 ### RTO.TVTO.DTO.IHPTO.JATU
+
+[RTO.TVTO.DTO.IHPTO.JATU description](../descr/RTO.TVTO.DTO.IHPTO.JATU.md)
 
 6 occurrences (example appeal IDs: [34538, 39812, 10197, 39823, 7729])
 
@@ -200,6 +208,8 @@ User
 
 ### RTO.TVTO.DTO.IHPTO.IHPTU.JATU
 
+[RTO.TVTO.DTO.IHPTO.IHPTU.JATU description](../descr/RTO.TVTO.DTO.IHPTO.IHPTU.JATU.md)
+
 4 occurrences (example appeal IDs: [30234, 35142, 5529, 34472])
 
 <details><summary>Task Tree for appeal with ID 30234</summary>
@@ -261,6 +271,8 @@ User
 
 ### DTO.JATU
 
+[DTO.JATU description](../descr/DTO.JATU.md)
+
 2 occurrences (example appeal IDs: [6702, 10958])
 
 <details><summary>Task Tree for appeal with ID 6702</summary>
@@ -293,10 +305,10 @@ User
   object 5.AttorneyTask #fc8d62 {
 User
 }
-  object 6.OtherColocatedTask #fc8d62 {
+  object 6.OtherColocatedTask #66c2a5 {
 Organization
 }
-  object 7.OtherColocatedTask #fc8d62 {
+  object 7.OtherColocatedTask #66c2a5 {
 User
 }
 0.RootTask -- 1.TrackVeteranTask
@@ -313,6 +325,8 @@ User
 ![DTO.JATU-6702](uml/DTO.JATU-6702.png)
 
 ### RTO.DTO.EOAMTO.EOAMTO.EOAMTU.JATU
+
+[RTO.DTO.EOAMTO.EOAMTO.EOAMTU.JATU description](../descr/RTO.DTO.EOAMTO.EOAMTO.EOAMTU.JATU.md)
 
 1 occurrences (example appeal IDs: [10213])
 
@@ -375,6 +389,8 @@ User
 
 ### RTO.DTO.SCMTU.JATU
 
+[RTO.DTO.SCMTU.JATU description](../descr/RTO.DTO.SCMTU.JATU.md)
+
 1 occurrences (example appeal IDs: [41963])
 
 <details><summary>Task Tree for appeal with ID 41963</summary>
@@ -395,7 +411,7 @@ Organization
   object 1.DistributionTask #fc8d62 {
 Organization
 }
-  object 2.SpecialCaseMovementTask #a6d854 {
+  object 2.SpecialCaseMovementTask #66c2a5 {
 User
 }
   object 3.JudgeAssignTask #8da0cb {
@@ -411,6 +427,8 @@ User  <back:white>    </back>
 ![RTO.DTO.SCMTU.JATU-41963](uml/RTO.DTO.SCMTU.JATU-41963.png)
 
 ### RTO.DTO.TVTO.JATU
+
+[RTO.DTO.TVTO.JATU description](../descr/RTO.DTO.TVTO.JATU.md)
 
 1 occurrences (example appeal IDs: [11092])
 

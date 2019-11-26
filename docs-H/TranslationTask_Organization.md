@@ -2,6 +2,8 @@
 
 # TranslationTask_Organization
 
+[TranslationTask_Organization description](../descr/TranslationTask_Organization.md)
+
 ## Tasks Created Before and After
 
 <details><summary>Tasks created before and after TranslationTask_Organization</summary>
@@ -28,6 +30,8 @@ rankdir="LR";
 ## Task Creation Sequences
 
 ### RTO.DTO.SHTO.HTO.TTO
+
+[RTO.DTO.SHTO.HTO.TTO description](../descr/RTO.DTO.SHTO.HTO.TTO.md)
 
 1 occurrences (example appeal IDs: [24900])
 

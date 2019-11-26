@@ -2,6 +2,8 @@
 
 # ReturnedUndeliverableCorrespondenceMailTask_User
 
+[ReturnedUndeliverableCorrespondenceMailTask_User description](../descr/ReturnedUndeliverableCorrespondenceMailTask_User.md)
+
 ## Tasks Created Before and After
 
 <details><summary>Tasks created before and after ReturnedUndeliverableCorrespondenceMailTask_User</summary>
@@ -28,6 +30,8 @@ rankdir="LR";
 ## Task Creation Sequences
 
 ### RTO.TVTO.DTO.IHPTO.JATU.JDRTU.ATU.BDTO.BDTU.RUCMTO.RUCMTO.RUCMTU
+
+[RTO.TVTO.DTO.IHPTO.JATU.JDRTU.ATU.BDTO.BDTU.RUCMTO.RUCMTO.RUCMTU description](../descr/RTO.TVTO.DTO.IHPTO.JATU.JDRTU.ATU.BDTO.BDTU.RUCMTO.RUCMTO.RUCMTU.md)
 
 1 occurrences (example appeal IDs: [29665])
 
@@ -70,16 +74,16 @@ Organization
   object 8.BvaDispatchTask #e5c494 {
 User
 }
-  object 9.ReturnedUndeliverableCorrespondenceMailTask #e78ac3 {
+  object 9.ReturnedUndeliverableCorrespondenceMailTask #ffd92f {
 Organization
 }
-  object 10.ReturnedUndeliverableCorrespondenceMailTask #e78ac3 {
+  object 10.ReturnedUndeliverableCorrespondenceMailTask #ffd92f {
 Organization
 }
-  object 11.ReturnedUndeliverableCorrespondenceMailTask #e78ac3 {
+  object 11.ReturnedUndeliverableCorrespondenceMailTask #ffd92f {
 User  <back:white>    </back>
 }
-  object 12.Task #e78ac3 {
+  object 12.Task #a6d854 {
 Organization
 }
 0.RootTask -- 1.TrackVeteranTask

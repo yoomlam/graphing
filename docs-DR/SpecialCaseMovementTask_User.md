@@ -2,6 +2,8 @@
 
 # SpecialCaseMovementTask_User
 
+[SpecialCaseMovementTask_User description](../descr/SpecialCaseMovementTask_User.md)
+
 ## Tasks Created Before and After
 
 <details><summary>Tasks created before and after SpecialCaseMovementTask_User</summary>
@@ -29,6 +31,8 @@ rankdir="LR";
 
 ### RTO.DTO.SCMTU
 
+[RTO.DTO.SCMTU description](../descr/RTO.DTO.SCMTU.md)
+
 1 occurrences (example appeal IDs: [41963])
 
 <details><summary>Task Tree for appeal with ID 41963</summary>
@@ -49,7 +53,7 @@ Organization
   object 1.DistributionTask #fc8d62 {
 Organization
 }
-  object 2.SpecialCaseMovementTask #a6d854 {
+  object 2.SpecialCaseMovementTask #66c2a5 {
 User  <back:white>    </back>
 }
   object 3.JudgeAssignTask #8da0cb {

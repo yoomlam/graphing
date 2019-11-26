@@ -2,6 +2,8 @@
 
 # InformalHearingPresentationTask_Organization
 
+[InformalHearingPresentationTask_Organization description](../descr/InformalHearingPresentationTask_Organization.md)
+
 ## Tasks Created Before and After
 
 <details><summary>Tasks created before and after InformalHearingPresentationTask_Organization</summary>
@@ -36,6 +38,8 @@ rankdir="LR";
 ## Task Creation Sequences
 
 ### RTO.TVTO.DTO.IHPTO
+
+[RTO.TVTO.DTO.IHPTO description](../descr/RTO.TVTO.DTO.IHPTO.md)
 
 75 occurrences (example appeal IDs: [34538, 39812, 41319, 41838, 42495])
 
@@ -101,6 +105,8 @@ User
 ![RTO.TVTO.DTO.IHPTO-34538](uml/RTO.TVTO.DTO.IHPTO-34538.png)
 
 ### RTO.DTO.JATU.JDRTU.ATU.TVTO.IHPTO
+
+[RTO.DTO.JATU.JDRTU.ATU.TVTO.IHPTO description](../descr/RTO.DTO.JATU.JDRTU.ATU.TVTO.IHPTO.md)
 
 1 occurrences (example appeal IDs: [3875])
 

@@ -2,6 +2,8 @@
 
 # TrackVeteranTask_Organization
 
+[TrackVeteranTask_Organization description](../descr/TrackVeteranTask_Organization.md)
+
 ## Tasks Created Before and After
 
 <details><summary>Tasks created before and after TrackVeteranTask_Organization</summary>
@@ -36,6 +38,8 @@ rankdir="LR";
 ## Task Creation Sequences
 
 ### RTO.TVTO
+
+[RTO.TVTO description](../descr/RTO.TVTO.md)
 
 116 occurrences (example appeal IDs: [34538, 39812, 41319, 40595, 42034])
 
@@ -102,6 +106,8 @@ User
 
 ### RTO.DTO.TVTO
 
+[RTO.DTO.TVTO description](../descr/RTO.DTO.TVTO.md)
+
 1 occurrences (example appeal IDs: [11092])
 
 <details><summary>Task Tree for appeal with ID 11092</summary>
@@ -146,6 +152,8 @@ User
 ![RTO.DTO.TVTO-11092](uml/RTO.DTO.TVTO-11092.png)
 
 ### RTO.DTO.JATU.JDRTU.ATU.TVTO
+
+[RTO.DTO.JATU.JDRTU.ATU.TVTO description](../descr/RTO.DTO.JATU.JDRTU.ATU.TVTO.md)
 
 1 occurrences (example appeal IDs: [3875])
 

@@ -2,6 +2,8 @@
 
 # DistributionTask_Organization
 
+[DistributionTask_Organization description](../descr/DistributionTask_Organization.md)
+
 ## Tasks Created Before and After
 
 <details><summary>Tasks created before and after DistributionTask_Organization</summary>
@@ -40,6 +42,8 @@ rankdir="LR";
 ## Task Creation Sequences
 
 ### RTO.TVTO.DTO
+
+[RTO.TVTO.DTO description](../descr/RTO.TVTO.DTO.md)
 
 116 occurrences (example appeal IDs: [34538, 39812, 41319, 40595, 42034])
 
@@ -106,6 +110,8 @@ User
 
 ### RTO.DTO
 
+[RTO.DTO description](../descr/RTO.DTO.md)
+
 56 occurrences (example appeal IDs: [32724, 10213, 39837, 41094, 41199])
 
 <details><summary>Task Tree for appeal with ID 32724</summary>
@@ -155,6 +161,8 @@ User
 
 ### DTO
 
+[DTO description](../descr/DTO.md)
+
 3 occurrences (example appeal IDs: [6702, 41852, 10958])
 
 <details><summary>Task Tree for appeal with ID 6702</summary>
@@ -187,10 +195,10 @@ User
   object 5.AttorneyTask #fc8d62 {
 User
 }
-  object 6.OtherColocatedTask #fc8d62 {
+  object 6.OtherColocatedTask #66c2a5 {
 Organization
 }
-  object 7.OtherColocatedTask #fc8d62 {
+  object 7.OtherColocatedTask #66c2a5 {
 User
 }
 0.RootTask -- 1.TrackVeteranTask

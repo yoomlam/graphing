@@ -2,6 +2,8 @@
 
 # JudgeDispatchReturnTask_User
 
+[JudgeDispatchReturnTask_User description](../descr/JudgeDispatchReturnTask_User.md)
+
 ## Tasks Created Before and After
 
 <details><summary>Tasks created before and after JudgeDispatchReturnTask_User</summary>
@@ -29,6 +31,8 @@ rankdir="LR";
 ## Task Creation Sequences
 
 ### RTO.TVTO.DTO.ESWTO.JATU.JDRTU.ATU.QRTO.QRTU.JQRTU.BDTO.BDTU.JDRTU
+
+[RTO.TVTO.DTO.ESWTO.JATU.JDRTU.ATU.QRTO.QRTU.JQRTU.BDTO.BDTU.JDRTU description](../descr/RTO.TVTO.DTO.ESWTO.JATU.JDRTU.ATU.QRTO.QRTU.JQRTU.BDTO.BDTU.JDRTU.md)
 
 1 occurrences (example appeal IDs: [15411])
 
@@ -65,13 +69,13 @@ User
   object 6.AttorneyTask #fc8d62 {
 User
 }
-  object 7.QualityReviewTask #66c2a5 {
+  object 7.QualityReviewTask #fc8d62 {
 Organization
 }
-  object 8.QualityReviewTask #66c2a5 {
+  object 8.QualityReviewTask #fc8d62 {
 User
 }
-  object 9.JudgeQualityReviewTask #8da0cb {
+  object 9.JudgeQualityReviewTask #ffd92f {
 User
 }
   object 10.BvaDispatchTask #e5c494 {
@@ -111,6 +115,8 @@ User  <back:white>    </back>
 
 ### RTO.TVTO.DTO.ESWTO.JATU.JDRTU.ATU.QRTO.QRTU.JQRTU.BDTO.BDTU.JDRTU.JDRTU
 
+[RTO.TVTO.DTO.ESWTO.JATU.JDRTU.ATU.QRTO.QRTU.JQRTU.BDTO.BDTU.JDRTU.JDRTU description](../descr/RTO.TVTO.DTO.ESWTO.JATU.JDRTU.ATU.QRTO.QRTU.JQRTU.BDTO.BDTU.JDRTU.JDRTU.md)
+
 1 occurrences (example appeal IDs: [15411])
 
 <details><summary>Task Tree for appeal with ID 15411</summary>
@@ -146,13 +152,13 @@ User
   object 6.AttorneyTask #fc8d62 {
 User
 }
-  object 7.QualityReviewTask #66c2a5 {
+  object 7.QualityReviewTask #fc8d62 {
 Organization
 }
-  object 8.QualityReviewTask #66c2a5 {
+  object 8.QualityReviewTask #fc8d62 {
 User
 }
-  object 9.JudgeQualityReviewTask #8da0cb {
+  object 9.JudgeQualityReviewTask #ffd92f {
 User
 }
   object 10.BvaDispatchTask #e5c494 {

@@ -2,6 +2,8 @@
 
 # AssignHearingDispositionTask_Organization
 
+[AssignHearingDispositionTask_Organization description](../descr/AssignHearingDispositionTask_Organization.md)
+
 ## Tasks Created Before and After
 
 <details><summary>Tasks created before and after AssignHearingDispositionTask_Organization</summary>
@@ -26,6 +28,8 @@ rankdir="LR";
 ## Task Creation Sequences
 
 ### RTO.TVTO.DTO.SHTO.HTO.AHDTO
+
+[RTO.TVTO.DTO.SHTO.HTO.AHDTO description](../descr/RTO.TVTO.DTO.SHTO.HTO.AHDTO.md)
 
 3 occurrences (example appeal IDs: [42246, 41907, 40879])
 

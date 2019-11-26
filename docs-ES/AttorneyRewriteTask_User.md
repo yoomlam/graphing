@@ -2,6 +2,8 @@
 
 # AttorneyRewriteTask_User
 
+[AttorneyRewriteTask_User description](../descr/AttorneyRewriteTask_User.md)
+
 ## Tasks Created Before and After
 
 <details><summary>Tasks created before and after AttorneyRewriteTask_User</summary>
@@ -28,6 +30,8 @@ rankdir="LR";
 ## Task Creation Sequences
 
 ### RTO.TVTO.DTO.ESWTO.IHPTO.JATU.JDRTU.ATU.ARTU
+
+[RTO.TVTO.DTO.ESWTO.IHPTO.JATU.JDRTU.ATU.ARTU description](../descr/RTO.TVTO.DTO.ESWTO.IHPTO.JATU.JDRTU.ATU.ARTU.md)
 
 1 occurrences (example appeal IDs: [11522])
 
@@ -94,6 +98,8 @@ User
 
 ### RTO.DTO.ESWTO.SCMTU.JATU.JDRTU.ATU.ARTU
 
+[RTO.DTO.ESWTO.SCMTU.JATU.JDRTU.ATU.ARTU description](../descr/RTO.DTO.ESWTO.SCMTU.JATU.JDRTU.ATU.ARTU.md)
+
 1 occurrences (example appeal IDs: [40605])
 
 <details><summary>Task Tree for appeal with ID 40605</summary>
@@ -117,7 +123,7 @@ Organization
   object 2.EvidenceSubmissionWindowTask #b3b3b3 {
 Organization
 }
-  object 3.SpecialCaseMovementTask #a6d854 {
+  object 3.SpecialCaseMovementTask #66c2a5 {
 User
 }
   object 4.JudgeAssignTask #8da0cb {

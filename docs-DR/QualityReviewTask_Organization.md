@@ -2,6 +2,8 @@
 
 # QualityReviewTask_Organization
 
+[QualityReviewTask_Organization description](../descr/QualityReviewTask_Organization.md)
+
 ## Tasks Created Before and After
 
 <details><summary>Tasks created before and after QualityReviewTask_Organization</summary>
@@ -28,6 +30,8 @@ rankdir="LR";
 ## Task Creation Sequences
 
 ### RTO.TVTO.DTO.IHPTO.JATU.ICTO.ICTU.THTU.JDRTU.ATU.QRTO
+
+[RTO.TVTO.DTO.IHPTO.JATU.ICTO.ICTU.THTU.JDRTU.ATU.QRTO description](../descr/RTO.TVTO.DTO.IHPTO.JATU.ICTO.ICTU.THTU.JDRTU.ATU.QRTO.md)
 
 1 occurrences (example appeal IDs: [7729])
 
@@ -61,10 +65,10 @@ User
   object 5.JudgeAssignTask #8da0cb {
 User
 }
-  object 6.IhpColocatedTask #a6d854 {
+  object 6.IhpColocatedTask #ffd92f {
 Organization
 }
-  object 7.IhpColocatedTask #a6d854 {
+  object 7.IhpColocatedTask #ffd92f {
 User
 }
   object 8.TimedHoldTask #e78ac3 {
@@ -76,10 +80,10 @@ User
   object 10.AttorneyTask #fc8d62 {
 User
 }
-  object 11.QualityReviewTask #66c2a5 {
+  object 11.QualityReviewTask #fc8d62 {
 Organization  <back:white>    </back>
 }
-  object 12.QualityReviewTask #66c2a5 {
+  object 12.QualityReviewTask #fc8d62 {
 User
 }
   object 13.BvaDispatchTask #e5c494 {

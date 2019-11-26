@@ -2,6 +2,8 @@
 
 # InformalHearingPresentationTask_User
 
+[InformalHearingPresentationTask_User description](../descr/InformalHearingPresentationTask_User.md)
+
 ## Tasks Created Before and After
 
 <details><summary>Tasks created before and after InformalHearingPresentationTask_User</summary>
@@ -28,6 +30,8 @@ rankdir="LR";
 ## Task Creation Sequences
 
 ### RTO.TVTO.DTO.IHPTO.IHPTU
+
+[RTO.TVTO.DTO.IHPTO.IHPTU description](../descr/RTO.TVTO.DTO.IHPTO.IHPTU.md)
 
 5 occurrences (example appeal IDs: [30234, 35142, 41843, 5529, 34472])
 

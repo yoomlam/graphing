@@ -2,6 +2,8 @@
 
 # RootTask_Organization
 
+[RootTask_Organization description](../descr/RootTask_Organization.md)
+
 ## Tasks Created Before and After
 
 <details><summary>Tasks created before and after RootTask_Organization</summary>
@@ -28,6 +30,8 @@ rankdir="LR";
 ## Task Creation Sequences
 
 ### RTO
+
+[RTO description](../descr/RTO.md)
 
 172 occurrences (example appeal IDs: [34538, 39812, 41319, 32724, 40595])
 

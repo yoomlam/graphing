@@ -2,6 +2,8 @@
 
 # DistributionTask_Organization
 
+[DistributionTask_Organization description](../descr/DistributionTask_Organization.md)
+
 ## Tasks Created Before and After
 
 <details><summary>Tasks created before and after DistributionTask_Organization</summary>
@@ -30,6 +32,8 @@ rankdir="LR";
 ## Task Creation Sequences
 
 ### RTO.TVTO.DTO
+
+[RTO.TVTO.DTO description](../descr/RTO.TVTO.DTO.md)
 
 63 occurrences (example appeal IDs: [40915, 42334, 41269, 42634, 40596])
 
@@ -67,6 +71,8 @@ Organization
 ![RTO.TVTO.DTO-40915](uml/RTO.TVTO.DTO-40915.png)
 
 ### RTO.DTO
+
+[RTO.DTO description](../descr/RTO.DTO.md)
 
 37 occurrences (example appeal IDs: [15152, 42078, 39814, 42497, 40530])
 
@@ -128,6 +134,8 @@ User
 ![RTO.DTO-15152](uml/RTO.DTO-15152.png)
 
 ### RTO.TVTO.TVTO.DTO
+
+[RTO.TVTO.TVTO.DTO description](../descr/RTO.TVTO.TVTO.DTO.md)
 
 3 occurrences (example appeal IDs: [40894, 42805, 42609])
 
