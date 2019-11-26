@@ -1,5 +1,0 @@
-digraph G {
-rankdir="LR";
-"RootTask_Organization" -> "TrackVeteranTask_Organization" [label=119]
-"RootTask_Organization" -> "DistributionTask_Organization" [label=9]
-}

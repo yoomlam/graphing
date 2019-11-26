@@ -1,4 +1,0 @@
-digraph G {
-rankdir="LR";
-"DistributionTask_Organization" -> "TranslationTask_Organization" [label=1]
-}

@@ -1,9 +1,0 @@
-digraph G {
-rankdir="LR";
-"TrackVeteranTask_Organization" -> "InformalHearingPresentationTask_Organization" [label=1]
-"InformalHearingPresentationTask_Organization" -> "JudgeAssignTask_User" [label=6]
-"InformalHearingPresentationTask_Organization" -> "VeteranRecordRequest_Organization" [label=1]
-"InformalHearingPresentationTask_Organization" -> "InformalHearingPresentationTask_User" [label=5]
-"InformalHearingPresentationTask_Organization" -> "BvaDispatchTask_Organization" [label=1]
-"DistributionTask_Organization" -> "InformalHearingPresentationTask_Organization" [label=75]
-}

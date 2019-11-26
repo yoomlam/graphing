@@ -1,5 +1,0 @@
-digraph G {
-rankdir="LR";
-"IhpColocatedTask_User" -> "TimedHoldTask_User" [label=1]
-"TimedHoldTask_User" -> "JudgeDecisionReviewTask_User" [label=1]
-}

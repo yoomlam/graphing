@@ -1,5 +1,0 @@
-digraph G {
-rankdir="LR";
-"BvaDispatchTask_User" -> "ReturnedUndeliverableCorrespondenceMailTask_Organization" [label=1]
-"BvaDispatchTask_Organization" -> "BvaDispatchTask_User" [label=16]
-}
