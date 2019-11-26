@@ -2,6 +2,8 @@
 
 # ScheduleHearingTask_Organization
 
+[ScheduleHearingTask_Organization description](descr/ScheduleHearingTask_Organization.md)
+
 ## Tasks Created Before and After
 
 <details><summary>Tasks created before and after ScheduleHearingTask_Organization</summary>
@@ -28,6 +30,8 @@ rankdir="LR";
 ## Task Creation Sequences
 
 ### RTO.TVTO.DTO.SHTO
+
+[RTO.TVTO.DTO.SHTO description](descr/RTO.TVTO.DTO.SHTO.md)
 
 119 occurrences (example appeal IDs: [42769, 42820, 42010, 42071, 39818])
 
@@ -104,4 +108,3 @@ Organization
 </details>
 
 ![RTO.DTO.SHTO-41136](uml/RTO.DTO.SHTO-41136.png)
-
