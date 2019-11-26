@@ -2,7 +2,7 @@
 
 # ScheduleHearingTask_Organization
 
-[ScheduleHearingTask_Organization description](descr/ScheduleHearingTask_Organization.md)
+[ScheduleHearingTask_Organization description](../descr/ScheduleHearingTask_Organization.md)
 
 ## Tasks Created Before and After
 
