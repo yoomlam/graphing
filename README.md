@@ -8,12 +8,14 @@ Actual task trees were processed and used to generate this documentation, which 
 Each docket above presents a list of relevant tasks.
 Each task has its own page (i.e., `md` file).
 Each task page has the following sections:
+* A link to a description page, which should be manually filled with relevant information such as description of the task, scenarios where it is created, and any other information to help understand the context and motivation for the task.
 * Tasks Created Before and After
   * Diagram of inlinks and outlinks to the task page. The number labeled on the link represents the number of occurrences where the creation of source task was followed by the creation of the destination task.
   * **Before**: links to tasks that were created _before_ the page's task
   * **After**: links to tasks that were created _after_ the page's task
 * Task Creation Sequences (TCS): Examples grouped according to the sequence of tasks created up to the page's task.
   * Section names are formed using acronyms for each task. For example, `RootTask_Organization` is `RTO`. So a section named `RTO.TVTO.DTO.SHTO` means `RootTask_Organization` was created and followed by `TrackVeteranTask_Organization` followed by `DistributionTask_Organization` followed by `ScheduleHearingTask_Organization`. The naming represents the **task creation sequence**. The last task in the sequence will always refer to the page's task.
+  * Each section has a link to a description page, which should be manually filled with relevant information such as how and why the task sequence is created. Only some of these description pages were automatically created. As needed, add `md` files for pages that do not yet exist.
   * Each section presents the number of occurrences of that TCS (along with a few appeal IDs that have that TCS) and a task tree diagram of that appeal.
 
 Notes:
