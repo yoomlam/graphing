@@ -1,0 +1,8 @@
+
+addHeader(){
+for F in JudgeAssignTask_User.md; do
+for F in *_Organization.md *_User.md; do
+sed -i '1s;^;| [All Tasks](../alltasks.md) | [DR tasks](../docs-DR/tasklist.md) | [ES tasks](../docs-ES/tasklist.md) | [H tasks](../docs-H/tasklist.md) |\n\n;' "$F"
+sed -i "/^# .*$/a\\\nTask stats [for DR](../docs-DR/$F), [for ES](../docs-ES/$F), [for H](../docs-H/$F) dockets." "$F"
+done
+}
